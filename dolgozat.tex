@@ -1,0 +1,81 @@
+
+\documentclass[12pt,a4paper,english,magyar,oneside]{report}
+
+\usepackage{t1enc}
+\usepackage{multirow}
+\usepackage[utf8]{inputenc} % mert nem a középkorban vagyunk
+\usepackage[magyar]{babel}
+\def\magyarOptions{hyphenation=huhyphn}
+%\usepackage[style=magyar,natbib=true,babel=other]{biblatex}
+\bibliography{bibliography}
+\usepackage{listingsutf8}
+\usepackage{color}
+\definecolor{lightgray}{rgb}{.9,.9,.9}
+\definecolor{darkgray}{rgb}{.4,.4,.4}
+\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+
+\usepackage[T1]{fontenc}
+
+\usepackage{indentfirst} % fejezetek els≈ë bekezdését is húzzuk be
+\usepackage{lmodern} %szépek lesznek tőle a betűk a pdfben
+\usepackage{graphicx}
+\usepackage{tabularx}
+
+\usepackage{url}
+%\usepackage{subfig}
+\usepackage{times}
+% 2.5 centis margó mindenütt, bal oldalt +1 centi 
+\usepackage{anysize}
+\paperwidth=21cm \paperheight29.7cm
+\marginsize{3.5cm}{2.5cm}{2.5cm}{2.5cm} % {bal}{jobb}{felső}{alsó}
+\addtolength\topmargin{-\headheight} \addtolength\topmargin{-\headsep}
+\addtolength\textheight{\headheight} \addtolength\textheight{\headsep}
+\addtolength\textheight{\footskip}
+\footskip=15pt
+\ifx\pdfoutput\UnDefined \newcount\pdfoutput \fi
+\ifnum0<\pdfoutput
+  \pdfpagewidth\paperwidth \pdfpageheight\paperheight \pdfcompresslevel9
+\else \special{papersize=21cm,29.7cm} \fi
+
+\sloppy % inkább a térköz nőjön minthogy sorok lógjanak ki jobb szélen
+
+\linespread{1.4} % Másfeles sorköz
+\frenchspacing   %Szimpla térköz mondatok között
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\begin{document}
+\selectlanguage{magyar}
+
+% include most passzolva eleg lesz az a vegen is... 
+\include{coverpage} %fedlap
+
+\setcounter{tocdepth}{2} % tartalomjegyzék mélysége
+\tableofcontents % tartalomjegyzéks
+
+%\large{
+\chapter{Bevezetés}
+\include{introduction}
+
+\chapter{Technológia}
+\include{technology}
+
+\chapter{Biztonsági}
+\include{security}
+
+\chapter{Üzleti}
+\include{business}
+
+
+\chapter{Összefoglalás}
+\include{summary}
+
+\newpage
+
+%\printbibliography
+
+
+%}
+\end{document}
+
