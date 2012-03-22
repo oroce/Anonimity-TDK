@@ -1,0 +1,79 @@
+%!TEX root = /Users/oroce/corvinus/Anonimity-TDK/dolgozat.tex
+
+A felhasználó azonosítása hálózati kapcsolaton keresztül történő kommunikáció során figyelhető meg leginkább, ezért a technológia áttekintés a webes technológia lehetőségeire fog fókuszálni.\\
+\\
+A webes technikák fejlődése egy inkább biztonságossá teszi a böngészést, amellett az új funkciók bevezetésével egyre több lehetőséget kínál a felhasználók azonosítására.\\
+A modern böngészők egyre több mérési lehetőségeket kínálnak a következő pontban összefoglalásra kerül, hogy mik ezek, milyen adatokat tudhatunk meg ezek segítségével a felhasználóról. Ezután pedig a lehetőségeket kerülnek mérlegelésre technológia szempontból, hogy melyek azok az adatok adatok, amelyek valóban információkat is tartalmaznak.
+
+\section{Mit lehet mérni?} % (fold)
+\label{sec:miket_tudunk_mérni_}
+
+\paragraph{Szerver oldali mérés} % (fold)
+\label{par:szerver_oldali_mérés}
+
+A böngészők már kérés elküldésekor is sok adatot küldenek. \Aref{fig:request_header} ábrán látható HTTP kérésből máris látszik, hogy felhasználó milyen böngészőt használ (\textit{User-Agent}), amely tartalmazza továbbá az operációs rendszer típusát (\textit{Mac OS X}), a böngésző verziószámát (\textit{Chrome 17}), a böngésző kompatibilitását (\textit{Mozilla 5.0}, \textit{AppleWebkit}, \textit{Safari}). Továbbá fontos megemlíteni az fejlécben lévő sütiket (\textit{Cookie}), amelynek segítségével, a webszerverek azonosítják a felhasználókat.\\
+\Aref{fig:request_header} ábrán látható sütik kiválóan bemutatják a webes anonimitás/azonosítás fontosságát, ugyanis az \textit{\_\_utma} és az \textit{\_\_utmz} sütiket a Google Analytics webanalitikai szoftver használja felhasználók azonosítására.\\
+A kérés fejlécéből még megállapíthatóak, olyan adatok mint a felhasználó operációs rendszerének/böngészőjének nyelvi beállítása (\textit{Accept-Language}) vagy éppen a használt karakterkódolás (\textit{Accept-Encoding}).\\
+\clearpage
+
+\begin{figure}[ht]
+	\centering
+		\lstinputlisting[breaklines=true]{assets/request_header.text}
+		\caption{Egy HTTP kérés fejléce}
+		\label{fig:request_header}
+\end{figure}
+% paragraph szerver_oldali_mérés (end)
+
+\paragraph{Kliens oldali mérés} % (fold)
+\label{par:kliens_oldali_mérés}
+
+Azonban, a legtöbb adatot a böngészők nem küldik el a kéréskor, hanem JavaScript\nomenclature{JavaScript}{\hfill\\JavaScript no mi ez lurkó?} segítségével tudjuk kinyerni a böngészőből. A HTML5\nomenclature{HTML5}{\hfill\\HTML5 egy webes szabványgyűjtemény, amelyet a webes fejlesztők, a böngészők készítői állítanak össze, és amely alapján adaptálják az új funkciókat} ajánlások bővülésével a JavaScript nyelv segítségével, egyre közelebb lehet kerülni az operációs szintű funkciókhoz, természetesen a megfelelő biztonsági korlátozások mellett.\\
+
+A HTTP fejlécben látható adatok, mind elérhetőek JavaScript segítségével is (ez alól kivételt jelentenek a biztonságos címkével ellátott sütik). De milyen plusz adatok érhetőek kliensoldalról?\hfill\\
+\\
+\subparagraph{Böngészőképességek} % (fold)
+\label{subp:böngészőképességek}
+A felhasználó által használt képességek, a szabványok implementációjának száma, amelyből kinyerhető, hogy a felhasználó milyen a böngészők használ. Természetesen mindezt elárulja a HTTP fejlécben található \textit{User-Agent} is, azonban a HTTP fejléc a legtöbb böngészőben kézzel is módosítható, tehát az ilyen detektálásból (\textit{Browser Detection}\nomenclature{Browser Detection}{\hfill\\Br.Det.}) gyakran fals-pozitív vagy fals-negatív azonosítás születhet, míg a JavaScript alapú megoldásból (\textit{Feature Detection}\nomenclature{Feature Detection}{\hfill\\Feat. Detection}) mindig pontos születik.
+% subparagraph böngészőképességek (end)
+
+\subparagraph{Bővítmények} % (fold)
+\label{subp:bővítmények}
+Olyan fontos információk - és hosszútávon állandó - adatok is kiolvashatók, mint például a felhasználó által telepített bővítmények (pluginek). Ebben a kategóriában a következő elemek fordulhatnak elő:
+\begin{itemize}
+	\item{\textbf{Adobe Flash}}\hfill\\ 
+		Az Adobe Flash bővítmény pontos neve, és verziószáma, videók lejátszásához, streameléshez, animációkhoz
+		
+	\item{\textbf{Java}}\hfill\\ 
+		A böngészőbe telepített Java bővítmény, és verziószáma, komplex hálózati adatfolyamok kezelésére, magas biztonsági szintet megkívánó alkalmazások futtatása (internetbankok)
+	\item{\textbf{Silverlight}}\hfill\\ 
+		A Microsoft Silverlight bővítménye, videók lejátszásához, és adat streameléshez
+		
+	\item{\textbf{PDF olvasó}}\hfill\\ 
+		Böngészőbe épített PDF olvasó, ez lehet alapértelmezett böngésző része, vagy külső beépülő bővítmény is lehet (például Adobe Reader)
+\end{itemize}
+
+
+% subparagraph bővítmények (end)
+
+
+% paragraph kliens_oldali_mérés (end)
+%\begin{itemize}
+%	\item böngészőverzió
+%	\item engedélyezett kiegészítők
+%	\item képernyő információk
+%	\item sütik
+%	\item lokalizációs adatok
+%	\item IP cím
+%\end{itemize}
+
+% section miket_tudunk_mérni_ (end)
+
+\section{Mit érdemes mérni?} % (fold)
+\label{sec:mit_érdemes_mérni_}
+
+\begin{itemize}
+	\item cookiek
+	\item lokalizációs információk
+\end{itemize}
+
+% section mit_érdemes_mérni_ (end)

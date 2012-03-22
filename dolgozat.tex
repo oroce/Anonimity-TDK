@@ -1,6 +1,6 @@
-
 \documentclass[12pt,a4paper,english,magyar,oneside]{report}
-
+\usepackage{makeidx}
+\makeindex
 \usepackage{t1enc}
 \usepackage{multirow}
 \usepackage[utf8]{inputenc} % mert nem a középkorban vagyunk
@@ -16,7 +16,7 @@
 
 \usepackage[T1]{fontenc}
 
-\usepackage{indentfirst} % fejezetek els≈ë bekezdését is húzzuk be
+\usepackage{indentfirst} % fejezetek első bekezdését is húzzuk be
 \usepackage{lmodern} %szépek lesznek tőle a betűk a pdfben
 \usepackage{graphicx}
 \usepackage{tabularx}
@@ -45,6 +45,10 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 
+\usepackage{nomencl} %rovidites jegyzek
+\renewcommand{\nomname}{Rövidítésjegyzék}
+\makenomenclature % roviditesjegyzek
+
 \begin{document}
 \selectlanguage{magyar}
 
@@ -53,6 +57,8 @@
 
 \setcounter{tocdepth}{2} % tartalomjegyzék mélysége
 \tableofcontents % tartalomjegyzéks
+
+\printnomenclature[2.5cm]
 
 %\large{
 \chapter{Bevezetés}

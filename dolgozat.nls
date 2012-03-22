@@ -1,0 +1,15 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{alma}]\begingroup belma\nomeqref {2.0}\nompageref{10}
+  \item [{Browser Detection}]\begingroup \hfill \\Br.Det.\nomeqref {2.0}
+		\nompageref{9}
+  \item [{Feature Detection}]\begingroup \hfill\\Feat. Detection\nomeqref {2.0}
+		\nompageref{10}
+  \item [{HTML5}]\begingroup \hfill\\HTML5 egy webes szabványgyűjtemény, amelyet a webes fejlesztők, a böngészők készítői állítanak össze, és amely alapján adaptálják az új funkciókat\nomeqref {2.0}
+		\nompageref{9}
+  \item [{JavaScript}]\begingroup \hfill\\JavaScript no mi ez lurkó?\nomeqref {2.0}
+		\nompageref{9}
+
+\end{thenomenclature}

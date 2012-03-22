@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  16 MAR 2012 17:46
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  22 MAR 2012 15:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -35,6 +35,14 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+\@indexfile=\write3
+\openout3 = `dolgozat.idx'.
+
+
+Writing index file dolgozat.idx
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1enc.sty
 Package: t1enc 1994/06/01 Standard LaTeX package
 )
@@ -461,23 +469,34 @@ Version 1.0, Aug 13, 1994
 \f@ncyO@olf=\skip52
 \f@ncyO@orf=\skip53
 )
+(/usr/local/texlive/2011/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen122
+\nom@tempdim=\dimen123
+\nomitemsep=\skip54
+)
+\@nomenclaturefile=\write4
+\openout4 = `dolgozat.nlo'.
+
+
+Writing nomenclature file dolgozat.nlo
 (./dolgozat.aux (./coverpage.aux) (./introduction.aux) (./technology.aux)
 (./security.aux) (./business.aux) (./summary.aux))
 \openout1 = `dolgozat.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 52.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -487,13 +506,13 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
-\scratchdimen=\dimen122
+\scratchdimen=\dimen124
 \scratchbox=\box28
 \nofMPsegments=\count101
 \nofMParguments=\count102
 \everyMPshowfont=\toks20
 \MPscratchCnt=\count103
-\MPscratchDim=\dimen123
+\MPscratchDim=\dimen125
 \MPnumerator=\count104
 \makeMPintoPDFobject=\count105
 \everyMPtoPDFconversion=\toks21
@@ -606,18 +625,21 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 41--42
 s/bce.png> <./assets/szechenyi.png> <./assets/tdk.png (PNG copy)> <./assets/meg
 ujul.png> <./assets/eutam.png>])
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 55.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 59.
  (./dolgozat.toc)
-\tf@toc=\write3
-\openout3 = `dolgozat.toc'.
+\tf@toc=\write5
+\openout5 = `dolgozat.toc'.
 
- [2
+ (./dolgozat.nls [2
 
 
+
+])
+[3
 
 ]
 1. fejezet.
-[3
+[4
 
 ]
 \openout2 = `introduction.aux'.
@@ -629,22 +651,64 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4
+[5
 
-]) [5
+]) [6
 
 ]
 2. fejezet.
-[6
+[7
 
 
 ]
 \openout2 = `technology.aux'.
 
- (./technology.tex)
-3. fejezet.
-[7
+ (./technology.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 3--7
+\T1/ptm/m/n/12 a fel-hasz-ná-ló-ról. Ez-után pe-dig a le-he-t®-sé-ge-ket ke-rül
+-nek mér-le-ge-lésre tech-no-ló-gia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+
+ []
+
+[8
+
+] (./assets/request_header.text
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 1.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+[9
+
+]) [10]
+3. fejezet.
+[11
 
 
 ]
@@ -652,7 +716,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (./security.tex)
 4. fejezet.
-[8
+[12
 
 
 
@@ -661,7 +725,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (./business.tex)
 5. fejezet.
-[9
+[13
 
 
 
@@ -671,22 +735,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  (./summary.tex) (./dolgozat.aux (./coverpage.aux) (./introduction.aux)
 (./technology.aux) (./security.aux) (./business.aux) (./summary.aux)) ) 
 Here is how much of TeX's memory you used:
- 4405 strings out of 493633
- 60694 string characters out of 3143378
- 123482 words of memory out of 3000000
- 7547 multiletter control sequences out of 15000+200000
- 32933 words of font info for 38 fonts, out of 3000000 for 9000
+ 4778 strings out of 493633
+ 64490 string characters out of 3143378
+ 157063 words of memory out of 3000000
+ 7899 multiletter control sequences out of 15000+200000
+ 36038 words of font info for 41 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 37i,13n,43p,479b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,13n,43p,709b,1326s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/lo
-cal/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/201
-1/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2011/texmf-di
-st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/t
-ype1/urw/times/utmr8a.pfb>
-Output written on dolgozat.pdf (9 pages, 172996 bytes).
+cal/texlive/2011/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
+e/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2011/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dis
+t/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts/ty
+pe1/urw/times/utmb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a
+.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on dolgozat.pdf (13 pages, 205880 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

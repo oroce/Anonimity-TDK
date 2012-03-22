@@ -1,10 +1,16 @@
 \select@language {magyar}
 \select@language {magyar}
-\contentsline {chapter}{\numberline {1.}Bevezet\IeC {\'e}s}{3}
-\contentsline {section}{\numberline {1.1.}Anonimit\IeC {\'a}s felhaszn\IeC {\'a}l\IeC {\'o}i oldalr\IeC {\'o}l}{5}
-\contentsline {section}{\numberline {1.2.}Anonimit\IeC {\'a}s \IeC {\"u}zleti oldalr\IeC {\'o}l}{5}
-\contentsline {section}{\numberline {1.3.}A t\IeC {\'e}ma l\IeC {\'e}tjogosults\IeC {\'a}ga, meg\IeC {\'e}ri vele foglalkozni?}{5}
-\contentsline {chapter}{\numberline {2.}Technol\IeC {\'o}gia}{6}
-\contentsline {chapter}{\numberline {3.}Biztons\IeC {\'a}gi}{7}
-\contentsline {chapter}{\numberline {4.}\IeC {\"U}zleti}{8}
-\contentsline {chapter}{\numberline {5.}\IeC {\"O}sszefoglal\IeC {\'a}s}{9}
+\contentsline {chapter}{\numberline {1.}Bevezet\IeC {\'e}s}{4}
+\contentsline {section}{\numberline {1.1.}Anonimit\IeC {\'a}s felhaszn\IeC {\'a}l\IeC {\'o}i oldalr\IeC {\'o}l}{6}
+\contentsline {section}{\numberline {1.2.}Anonimit\IeC {\'a}s \IeC {\"u}zleti oldalr\IeC {\'o}l}{6}
+\contentsline {section}{\numberline {1.3.}A t\IeC {\'e}ma l\IeC {\'e}tjogosults\IeC {\'a}ga, meg\IeC {\'e}ri vele foglalkozni?}{6}
+\contentsline {chapter}{\numberline {2.}Technol\IeC {\'o}gia}{7}
+\contentsline {section}{\numberline {2.1.}Mit lehet m\IeC {\'e}rni?}{8}
+\contentsline {paragraph}{Szerver oldali m\IeC {\'e}r\IeC {\'e}s}{8}
+\contentsline {paragraph}{Kliens oldali m\IeC {\'e}r\IeC {\'e}s}{9}
+\contentsline {subparagraph}{B\IeC {\"o}ng\IeC {\'e}sz\IeC {\H o}k\IeC {\'e}pess\IeC {\'e}gek}{9}
+\contentsline {subparagraph}{B\IeC {\H o}v\IeC {\'\i }tm\IeC {\'e}nyek}{10}
+\contentsline {section}{\numberline {2.2.}Mit \IeC {\'e}rdemes m\IeC {\'e}rni?}{10}
+\contentsline {chapter}{\numberline {3.}Biztons\IeC {\'a}gi}{11}
+\contentsline {chapter}{\numberline {4.}\IeC {\"U}zleti}{12}
+\contentsline {chapter}{\numberline {5.}\IeC {\"O}sszefoglal\IeC {\'a}s}{13}
