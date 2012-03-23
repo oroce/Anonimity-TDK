@@ -10,7 +10,16 @@
 \contentsline {paragraph}{Kliens oldali m\IeC {\'e}r\IeC {\'e}s}{9}
 \contentsline {subparagraph}{B\IeC {\"o}ng\IeC {\'e}sz\IeC {\H o}k\IeC {\'e}pess\IeC {\'e}gek}{9}
 \contentsline {subparagraph}{B\IeC {\H o}v\IeC {\'\i }tm\IeC {\'e}nyek}{10}
-\contentsline {section}{\numberline {2.2.}Mit \IeC {\'e}rdemes m\IeC {\'e}rni?}{10}
-\contentsline {chapter}{\numberline {3.}Biztons\IeC {\'a}gi}{11}
-\contentsline {chapter}{\numberline {4.}\IeC {\"U}zleti}{12}
-\contentsline {chapter}{\numberline {5.}\IeC {\"O}sszefoglal\IeC {\'a}s}{13}
+\contentsline {subparagraph}{K\IeC {\'e}perny\IeC {\H o}adatok}{10}
+\contentsline {subparagraph}{S\IeC {\"u}tik}{10}
+\contentsline {subparagraph}{Lokaliz\IeC {\'a}ci\IeC {\'o}s adatok}{11}
+\contentsline {subparagraph}{Egy\IeC {\'e}b m\IeC {\'e}rhet\IeC {\H o} adatok}{12}
+\contentsline {section}{\numberline {2.2.}Mit \IeC {\'e}rdemes m\IeC {\'e}rni?}{12}
+\contentsline {paragraph}{A HTTP fejl\IeC {\'e}c}{12}
+\contentsline {paragraph}{A b\IeC {\"o}ng\IeC {\'e}sz\IeC {\H o} neve, verzi\IeC {\'o}ja}{12}
+\contentsline {paragraph}{S\IeC {\"u}tik}{13}
+\contentsline {paragraph}{Lokaliz\IeC {\'a}ci\IeC {\'o}s inform\IeC {\'a}ci\IeC {\'o}k}{13}
+\contentsline {paragraph}{B\IeC {\H o}v\IeC {\'\i }tm\IeC {\'e}nyek}{13}
+\contentsline {chapter}{\numberline {3.}Biztons\IeC {\'a}gi}{14}
+\contentsline {chapter}{\numberline {4.}\IeC {\"U}zleti}{15}
+\contentsline {chapter}{\numberline {5.}\IeC {\"O}sszefoglal\IeC {\'a}s}{16}

@@ -1,4 +1,7 @@
 \nomenclatureentry{aJavaScript@[{JavaScript}]\begingroup \hfill\\JavaScript no mi ez lurkó?\nomeqref {2.0}|nompageref}{9}
 \nomenclatureentry{aHTML5@[{HTML5}]\begingroup \hfill\\HTML5 egy webes szabványgyűjtemény, amelyet a webes fejlesztők, a böngészők készítői állítanak össze, és amely alapján adaptálják az új funkciókat\nomeqref {2.0}|nompageref}{9}
 \nomenclatureentry{aBrowser Detection@[{Browser Detection}]\begingroup \hfill\\Br.Det.\nomeqref {2.0}|nompageref}{9}
-\nomenclatureentry{aFeature Detection@[{Feature Detection}]\begingroup \hfill\\Feat. Detection\nomeqref {2.0}|nompageref}{10}
+\nomenclatureentry{aFeature Detection@[{Feature Detection}]\begingroup \hfill\\Feat. Detection\nomeqref {2.0}|nompageref}{9}
+\nomenclatureentry{awebStorage@[{webStorage}]\begingroup \hfill \\websztorázs\nomeqref {2.0}|nompageref}{10}
+\nomenclatureentry{aIndexedDB - Indexed Database API@[{IndexedDB - Indexed Database API}]\begingroup IndexedDB\nomeqref {2.0}|nompageref}{10}
+\nomenclatureentry{aActiveX@[{ActiveX}]\begingroup \hfill\\ActiveX\nomeqref {2.0}|nompageref}{12}

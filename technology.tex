@@ -6,14 +6,14 @@ A webes technikák fejlődése egy inkább biztonságossá teszi a böngészést
 A modern böngészők egyre több mérési lehetőségeket kínálnak a következő pontban összefoglalásra kerül, hogy mik ezek, milyen adatokat tudhatunk meg ezek segítségével a felhasználóról. Ezután pedig a lehetőségeket kerülnek mérlegelésre technológia szempontból, hogy melyek azok az adatok adatok, amelyek valóban információkat is tartalmaznak.
 
 \section{Mit lehet mérni?} % (fold)
-\label{sec:miket_tudunk_mérni_}
+\label{sec:miket_lehet_merni_}
 
 \paragraph{Szerver oldali mérés} % (fold)
-\label{par:szerver_oldali_mérés}
+\label{par:szerver_oldali_meres}
 
-A böngészők már kérés elküldésekor is sok adatot küldenek. \Aref{fig:request_header} ábrán látható HTTP kérésből máris látszik, hogy felhasználó milyen böngészőt használ (\textit{User-Agent}), amely tartalmazza továbbá az operációs rendszer típusát (\textit{Mac OS X}), a böngésző verziószámát (\textit{Chrome 17}), a böngésző kompatibilitását (\textit{Mozilla 5.0}, \textit{AppleWebkit}, \textit{Safari}). Továbbá fontos megemlíteni az fejlécben lévő sütiket (\textit{Cookie}), amelynek segítségével, a webszerverek azonosítják a felhasználókat.\\
+A böngészők már a weboldalak lekérésok elküldésekor is számottevő mennyiségű adatot küldenek el a szervereknek. \Aref{fig:request_header} ábrán látható HTTP kérésből jól látható, hogy felhasználó milyen böngészőt használ (\textit{User-Agent}), amely tartalmazza az operációs rendszer típusát (\textit{Mac OS X}), a böngésző verziószámát (\textit{Chrome 17}), a böngésző kompatibilitását (\textit{Mozilla 5.0}, \textit{AppleWebkit}, \textit{Safari}). Továbbá fontos megemlíteni az fejlécben lévő sütiket (\textit{Cookie}), amelynek segítségével, a webszerverek azonosítják a felhasználókat.\\
 \Aref{fig:request_header} ábrán látható sütik kiválóan bemutatják a webes anonimitás/azonosítás fontosságát, ugyanis az \textit{\_\_utma} és az \textit{\_\_utmz} sütiket a Google Analytics webanalitikai szoftver használja felhasználók azonosítására.\\
-A kérés fejlécéből még megállapíthatóak, olyan adatok mint a felhasználó operációs rendszerének/böngészőjének nyelvi beállítása (\textit{Accept-Language}) vagy éppen a használt karakterkódolás (\textit{Accept-Encoding}).\\
+A kérés fejlécéből még megállapíthatóak, olyan adatok, mint a felhasználó operációs rendszerének/böngészőjének nyelvi beállítása (\textit{Accept-Language}) vagy éppen a használt karakterkódolás (\textit{Accept-Encoding}).\\
 \clearpage
 
 \begin{figure}[ht]
@@ -27,53 +27,105 @@ A kérés fejlécéből még megállapíthatóak, olyan adatok mint a felhaszná
 \paragraph{Kliens oldali mérés} % (fold)
 \label{par:kliens_oldali_mérés}
 
-Azonban, a legtöbb adatot a böngészők nem küldik el a kéréskor, hanem JavaScript\nomenclature{JavaScript}{\hfill\\JavaScript no mi ez lurkó?} segítségével tudjuk kinyerni a böngészőből. A HTML5\nomenclature{HTML5}{\hfill\\HTML5 egy webes szabványgyűjtemény, amelyet a webes fejlesztők, a böngészők készítői állítanak össze, és amely alapján adaptálják az új funkciókat} ajánlások bővülésével a JavaScript nyelv segítségével, egyre közelebb lehet kerülni az operációs szintű funkciókhoz, természetesen a megfelelő biztonsági korlátozások mellett.\\
+Azonban, a legtöbb adatot a böngészők nem küldik el a kéréskor, hanem JavaScript\nomenclature{JavaScript}{\hfill\\JavaScript no mi ez lurkó?} segítségével lehet kinyerni a böngészőből. A HTML5\nomenclature{HTML5}{\hfill\\HTML5 egy webes szabványgyűjtemény, amelyet a webes fejlesztők, a böngészők készítői állítanak össze, és amely alapján adaptálják az új funkciókat} ajánlások bővülésével a JavaScript nyelv segítségével, egyre közelebb lehet kerülni az operációs szintű funkciókhoz, természetesen a megfelelő biztonsági korlátozások mellett.\\
 
 A HTTP fejlécben látható adatok, mind elérhetőek JavaScript segítségével is (ez alól kivételt jelentenek a biztonságos címkével ellátott sütik). De milyen plusz adatok érhetőek kliensoldalról?\hfill\\
-\\
+
 \subparagraph{Böngészőképességek} % (fold)
-\label{subp:böngészőképességek}
-A felhasználó által használt képességek, a szabványok implementációjának száma, amelyből kinyerhető, hogy a felhasználó milyen a böngészők használ. Természetesen mindezt elárulja a HTTP fejlécben található \textit{User-Agent} is, azonban a HTTP fejléc a legtöbb böngészőben kézzel is módosítható, tehát az ilyen detektálásból (\textit{Browser Detection}\nomenclature{Browser Detection}{\hfill\\Br.Det.}) gyakran fals-pozitív vagy fals-negatív azonosítás születhet, míg a JavaScript alapú megoldásból (\textit{Feature Detection}\nomenclature{Feature Detection}{\hfill\\Feat. Detection}) mindig pontos születik.
+\label{subp:bongeszokepessegek}
+A felhasználó böngészője által implementált képességek, amelyből kinyerhető, hogy a felhasználó milyen a böngészők használ. Természetesen mindezt elárulja a HTTP fejlécben található \textit{User-Agent} is, azonban a HTTP fejléc a legtöbb böngészőben kézzel is módosítható, tehát az ilyen detektálásból (\textit{Browser Detection}\nomenclature{Browser Detection}{\hfill\\Br.Det.}) gyakran fals-pozitív vagy fals-negatív azonosítás születhet, míg a JavaScript alapú megoldásból (\textit{Feature Detection}\nomenclature{Feature Detection}{\hfill\\Feat. Detection}) mindig pontos születik.
 % subparagraph böngészőképességek (end)
 
 \subparagraph{Bővítmények} % (fold)
 \label{subp:bővítmények}
-Olyan fontos információk - és hosszútávon állandó - adatok is kiolvashatók, mint például a felhasználó által telepített bővítmények (pluginek). Ebben a kategóriában a következő elemek fordulhatnak elő:
+Olyan fontos - és hosszútávon állandó - adatok is kiolvashatók a böngészőkből, mint például a felhasználó által telepített bővítmények (pluginek). Ebben a kategóriában a következő elemek fordulhatnak elő:
 \begin{itemize}
 	\item{\textbf{Adobe Flash}}\hfill\\ 
-		Az Adobe Flash bővítmény pontos neve, és verziószáma, videók lejátszásához, streameléshez, animációkhoz
+		Az Adobe Flash bővítmény pontos neve, és verziószáma, videók lejátszásához, streameléshez, animációkhoz használják.
 		
 	\item{\textbf{Java}}\hfill\\ 
-		A böngészőbe telepített Java bővítmény, és verziószáma, komplex hálózati adatfolyamok kezelésére, magas biztonsági szintet megkívánó alkalmazások futtatása (internetbankok)
+		A böngészőbe telepített Java bővítmény verziószáma, komplex hálózati adatfolyamok kezelésére, magas biztonsági szintet megkívánó alkalmazások (például internetbankok) futtatására használják.
 	\item{\textbf{Silverlight}}\hfill\\ 
-		A Microsoft Silverlight bővítménye, videók lejátszásához, és adat streameléshez
+		A Microsoft Silverlight bővítménye, videók lejátszásához, és adat streameléshez használatos.
 		
 	\item{\textbf{PDF olvasó}}\hfill\\ 
-		Böngészőbe épített PDF olvasó, ez lehet alapértelmezett böngésző része, vagy külső beépülő bővítmény is lehet (például Adobe Reader)
+		Böngészőbe épített PDF olvasó, ez lehet alapértelmezett böngésző része, vagy külső beépülő bővítmény is lehet (például Adobe Reader).
 \end{itemize}
-
-
 % subparagraph bővítmények (end)
 
+\subparagraph{Képernyőadatok} % (fold)
+\label{subp:képernyőadatok}
+A kliensoldalon hasznos adatok érhetőek JavaScript és CSS segítségével, a felhasználó által használt monitor felbontásáról, színmélységéről.
+% subparagraph képernyőadatok (end)
+
+\subparagraph{Sütik} % (fold)
+\label{subp:sütik}
+A webes alkalmazások sütikben (cookie) tárolják a felhasználókhoz kapcsolódó információkat, ilyenek lehetnek például a bejelentkezéshez, a legutóbbi látogatáshoz tartozó adatok. Ezek böngészőkhöz vannak kötve, tehát ha a felhasználó egy másik böngészőt indít el az internetezésre használt eszközén, vagy másik eszközről éri el az oldalt akkor nem lesznek elérhetőek.\hfill\\
+A már említett és \aref{fig:request_header} ábrán látható módon a sütikben az analitikai szoftverek egyéb, a felhasználói azonosítást megkönnyítendő adatot is elhelyeznek.\hfill\\
+A HTML5-ben már nem csak sütikben van lehetőség adatok tárolására (a sütik mérete négy kilobájtra van limitálva (http://support.microsoft.com/kb/306070)), hanem \textit{webStorage\nomenclature{webStorage}{\hfill\\websztorázs}}-ban is, amely már strukturáltabb, és nagyobb adathalmaz tárolását teszi lehetővé (http://www.w3.org/TR/webstorage/) illetve az \textit{IndexedDB}\nomenclature{IndexedDB - Indexed Database API}{IndexedDB}, amely webStorage méretbeli lehetőségeivel bír, viszont növelési lehetőséggel (bármeddig növelhető 
+méret(https://developer.mozilla.org/en/IndexedDB)) (http://www.w3.org/TR/IndexedDB/), és még komplexebb adatformátumok tárolására is fel van készítve. 
+% subparagraph sütik (end)
+
+\subparagraph{Lokalizációs adatok} % (fold)
+\label{subp:lokalizációs_adatok}
+A felhasználó földrajzi pozíciójának meghatározása nem egyszerű dolog, a HTML5 lokalizációs interfészének bevezetése előtt, mindössze az ún. \textit{fordított helymeghatározás} (reverse geocoding) létezett, amely a felhasználó IP címe alapján próbálta megállapítani a kliens pozícióját.\hfill\\
+Azonban, míg az Egyesült Államokban az IP cím tartományok kiosztása régiónként történt, addig Magyarországon nem volt ilyen szabályozás, tehát ezzel a módszer Magyarországon nem lehetséges pontosan meghatározni a felhasználó tartózkodási helyét.\hfill\\
+Viszont az említett HTML5 lokalizációs interfésze (geoLocation) lehetővé teszi, a felhasználó pozíciójának pontosabb meghatározását, amely következőképpen történhet:
+\begin{itemize}
+	\item{\textbf{A környező vezeték nélküli hálózatok segítségével}}\hfill\\
+		Ebben az esetben (Google Chrome és Firefox böngésző esetén) elküldésre kerül a Google térkép és lokalizációs szervereinek a felhasználó készüléke körül elhelyezkedő privát, és publikus vezeték nélküli hálózatok azonosítója (SSID), egyéni fizikai címe (MAC cím) illetve a jel erőssége. A válaszüzenetben visszaküldésre kerülnek a szélességi és a hosszúsági fokok.
+	\item{\textbf{Mobiltelefon tornyok}}\hfill\\
+		Amennyiben a felhasználó készüléke képes mobiltelefon tornyokhoz kapcsolódni (mobiltelefon, táblagép, 3G modem), akkor a tornyok pozíciója is pontosítja a pozíciót.
+	\item{\textbf{GPS}}\hfill\\
+		A specifikáció lehetőséget ad arra is, hogy ha felhasználó készülékében található GPS eszköz (mobiltelefon, táblagép, de akár laptop is), akkor a kért pozíció pontosságától függően ez is használatra kerül.
+	\item{\textbf{Fordított helymeghatározás}}\hfill\\
+		Abban az esetben, ha az adott készülék sem mobiltelefon tornyokra nem képes csatlakozni, vezeték nélküli hálózat sincs a környezetében és GPS eszközzel sem rendelkezik, a fordított helymeghatározás ilyenkor is használható, hiszen internetkapcsolattal rendelkeznie kell a webes tartalmak eléréséhez.
+\end{itemize}
+
+A HTML5 lokalizációnál fontos kiemelni, hogy a böngésző alapértelmezetten nem teszi elérhetővé a felhasználó pozícióját, hanem egy megerősítést kér, amelyet elfogadva lesz csak elérhető az adat.
+% subparagraph lokalizációs_adatok (end)
+
+\subparagraph{Egyéb mérhető adatok} % (fold)
+\label{subp:egyéb_mérhető_adatok}
+Lehetőség van még a böngészőkben olyan egyéb adatok mérésére, melyek nincsenek benne a specifikációban illetve a beépülő bővítmények segítségével érhetőek el.\hfill\\\\
+Ilyenek lehetnek például az Adobe Flash segítségével elérhető operációs rendszerre telepített betűtípusok vagy az adott készülékben megtalálható vagy készülékhez kapcsolt multimédiás eszközök, mint például a webkamera.\hfill\\\\
+Továbbá a nem standard megoldások közé tartozik, az Internet Explorerben megtalálható ActiveX\nomenclature{ActiveX}{\hfill\\ActiveX} komponensek, melyekkel akár az operációs rendszer szintjén lehet futtatni nem webre fejlesztett szoftvereket, amelyek természetesen szinte mindent elérhetnek - az asztali programokhoz hasonlóan. Az ActiveX komponensek hátránya, hogy csak Internet Explorerben és Windows platformon érhetőek el.
+% subparagraph egyéb_mérhető_adatok (end)
 
 % paragraph kliens_oldali_mérés (end)
-%\begin{itemize}
-%	\item böngészőverzió
-%	\item engedélyezett kiegészítők
-%	\item képernyő információk
-%	\item sütik
-%	\item lokalizációs adatok
-%	\item IP cím
-%\end{itemize}
 
 % section miket_tudunk_mérni_ (end)
 
 \section{Mit érdemes mérni?} % (fold)
 \label{sec:mit_érdemes_mérni_}
 
-\begin{itemize}
-	\item cookiek
-	\item lokalizációs információk
-\end{itemize}
+\Aref{sec:miket_lehet_merni_} pontban bemutatásra kerültek a legfontosabb mérhető adatok, azonban fontos kiemelni, hogy nem érdemes minden adattal foglalkozni, de vajon melyek azok az adatok, amelyek valójában információt is tartalmaznak?\hfill\\
 
+\paragraph{A HTTP fejléc} % (fold)
+\label{par:a_http_fejléc}
+A HTTP fejléc módosítása nem tartalmaz elegendő információt ahhoz, hogy érdemben megérje vele foglalkozni, és az elküldött adatok legtöbbje módosítható, korlátozható illetve ki is egészíthető a telepített böngészőkben (ez történhet kézzel vagy a bővítmények, kiegészítők által).
+% paragraph a_http_fejléc (end)
+
+\paragraph{A böngésző neve, verziója} % (fold)
+\label{par:a_böngésző_neve_verziója}
+Mint említésre került \aref{sec:miket_lehet_merni_} bekezdéseiben a böngésző neve, kompatibilitása, verziószáma mind kliens-, mind szerveroldalról elérhető, azonban ennek mérése hosszútávon nem profitábilis. Ennek oka, hogy 2010 júliusában a Google Chrome - szakítva a korábban megszokott böngészőverziók frissítési szokásaival - hatheti kiadási ütemtervre váltott (http://blog.chromium.org/2010/07/release-early-release-often.html), majd őt követte a Mozilla is, amely pont egy évvel később hozta meg hasonló döntését (https://blog.mozilla.com/futurereleases/2011/07/19/every-six-weeks/).\hfill\\
+Tehát az ilyen gyors ütemű verzióváltások mellett, ez az adat sem szolgálhat nagy segítséggel.
+% paragraph a_böngésző_neve_verziója (end)
+
+\paragraph{Sütik} % (fold)
+\label{par:sütik}
+A sütik (és egyéb kliensoldali adattárolási formák) kihasználása rendkívül fontos dolog, ugyanis a felhasználóról korábban eltárolt információk, kliens és szerveroldali közötti megosztása ezeken keresztül történhet meg.
+% paragraph sütik (end)
+
+\paragraph{Lokalizációs információk} % (fold)
+\label{par:lokalizációs_információk}
+A felhasználó pozíciójának elmentése is kiemelten fontos eleme a mérésnek. Természetesen, a minél pontosabb méréshez szükség van a felhasználó beleegyezésére, azonban ha az adott oldal képes rávenni a képernyő túloldalán helyet foglaló internetezőt, hogy erősítse meg megosztási szándékát (például nyereményjátékba való bekerülés lehetőségével), akkor mindenképpen az egyik legfontosabb információvá lép elő.
+% paragraph lokalizációs_információk (end)
+
+\paragraph{Bővítmények} % (fold)
+\label{par:bővítmények}
+Érdemes monitorozni a bővítmények verzióit, illetve a különböző bővítmények jelenlétét a böngészőkben.\hfill\\
+\Aref{sec:miket_lehet_merni_} pontban megemlítésre került, hogy a bővítményekkel olyan adatok is elérhetőek, melyek a webes kliensoldali technológiákkal (JavaScript, CSS) nem, vagy csak részlegesen. Viszont ezek a bővítmények nincsenek jelen minden böngészőben, vagy éppen minden platformon, de akkor mégis miért szükséges velük foglalkozni?\hfill\\
+Éppen az a plusz információ teszi őket fontossá, hiszen ezen apró pluszok segítségével válik lehetővé a felhasználók beazonosítása.
+% paragraph bővítmények (end)
 % section mit_érdemes_mérni_ (end)

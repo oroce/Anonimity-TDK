@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  22 MAR 2012 15:10
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  23 MAR 2012 01:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -695,20 +695,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
 [9
 
-]) [10]
+]
+Underfull \hbox (badness 6542) in paragraph at lines 63--68
+\T1/ptm/m/n/12 ret(https://developer.mozilla.org/en/IndexedDB)) (http://www.w3.
+org/TR/IndexedDB/),
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 90--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--94
+
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 90--94
+\T1/ptm/m/n/12 fut-tatni nem webre fej-lesz-tett szoft-ve-re-ket, ame-lyek ter-
+mé-sze-te-sen szinte min-dent
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+[12]) [13]
 3. fejezet.
-[11
+[14
 
 
 ]
@@ -716,7 +738,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  (./security.tex)
 4. fejezet.
-[12
+[15
 
 
 
@@ -725,7 +747,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  (./business.tex)
 5. fejezet.
-[13
+[16
 
 
 
@@ -735,13 +757,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--34
  (./summary.tex) (./dolgozat.aux (./coverpage.aux) (./introduction.aux)
 (./technology.aux) (./security.aux) (./business.aux) (./summary.aux)) ) 
 Here is how much of TeX's memory you used:
- 4778 strings out of 493633
- 64490 string characters out of 3143378
- 157063 words of memory out of 3000000
- 7899 multiletter control sequences out of 15000+200000
+ 4788 strings out of 493633
+ 64710 string characters out of 3143378
+ 157162 words of memory out of 3000000
+ 7909 multiletter control sequences out of 15000+200000
  36038 words of font info for 41 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 37i,13n,43p,709b,1326s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,13n,43p,710b,1326s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/lo
 cal/texlive/2011/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
 e/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2011/texmf-di
@@ -750,10 +772,10 @@ t/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dolgozat.pdf (13 pages, 205880 bytes).
+Output written on dolgozat.pdf (16 pages, 215009 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 89 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
