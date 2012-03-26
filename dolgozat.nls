@@ -8,13 +8,23 @@
 		\nompageref{9}
   \item [{Feature Detection}]\begingroup \hfill\\Feat. Detection\nomeqref {2.0}
 		\nompageref{9}
+  \item [{fehér kalapos hacker - white-hat hacker}]\begingroup \hfill\\white-hat hacker\nomeqref {3.0}
+		\nompageref{16}
   \item [{HTML5}]\begingroup \hfill\\HTML5 egy webes szabványgyűjtemény, amelyet a webes fejlesztők, a böngészők készítői állítanak össze, és amely alapján adaptálják az új funkciókat\nomeqref {2.0}
 		\nompageref{9}
   \item [{IndexedDB - Indexed Database API}]\begingroup IndexedDB\nomeqref {2.0}
 		\nompageref{10}
+  \item [{ISP - Internet Service Provider}]\begingroup \hfill\\ISP\nomeqref {3.0}
+		\nompageref{15}
   \item [{JavaScript}]\begingroup \hfill\\JavaScript no mi ez lurkó?\nomeqref {2.0}
 		\nompageref{9}
-  \item [{webStorage}]\begingroup \hfill \\webStorage\nomeqref {2.0}
+  \item [{Proxy}]\begingroup \hfill\\Proxy\nomeqref {3.0}
+		\nompageref{17}
+  \item [{Pwn2Own konferencia}]\begingroup \hfill\\Pw2Own a CanSecWest biztonsági cég éves konferenciájának a részeként kerül megrendezésre.\\Aki leggyorsabban át tudja venni az uralmat az internet böngészők aktuális verziója felett, pénzjutalomban részesül.\nomeqref {3.0}
+		\nompageref{16}
+  \item [{VPN - virtuális magánhálózat}]\begingroup \hfill\\\nomeqref {3.0}
+		\nompageref{17}
+  \item [{webStorage}]\begingroup \hfill \\websztorázs\nomeqref {2.0}
 		\nompageref{10}
 
 \end{thenomenclature}

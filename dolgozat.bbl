@@ -1,0 +1,415 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{gplus_personal}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Andrey}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{labelyear}{2012}
+  \field{sortinit}{A}
+  \field{note}{\\Letöltve: 2012. február 25.\\}
+  \field{title}{Google+ Search Personalisation}
+  \verb{url}
+  \verb http://www.firstrate.co.nz/blog/google-plus-search-personalisation/
+  \endverb
+  \field{year}{2012}
+\endentry
+
+\entry{chrome_disabled_java}{misc}{}
+  \field{labelyear}{2011}
+  \field{sortinit}{B}
+  \field{note}{\\Letöltve: 2012. március 16.\\}
+  \field{title}{Blocked plug-ins}
+  \verb{url}
+  \verb http://support.google.com/chrome/bin/answer.py?hl=en&answer=1247383
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{buhera_pwn2own_2009}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Buherátor}{B.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{B1}
+  \strng{fullhash}{B1}
+  \field{labelyear}{2009}
+  \field{sortinit}{B}
+  \field{note}{\\Letöltve: 2012. március 12.\\}
+  \field{title}{Pwn2Own: Mindenki elhasalt}
+  \verb{url}
+  \verb http://buhera.blog.hu/2009/03/19/pwn2own_mindenki_elhasalt
+  \endverb
+  \field{year}{2009}
+\endentry
+
+\entry{buhera_pwn2own_2010}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Buherátor}{B.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{B1}
+  \strng{fullhash}{B1}
+  \field{labelyear}{2010}
+  \field{sortinit}{B}
+  \field{note}{\\Letöltve: 2012. március 12.\\}
+  \field{title}{Pwn2Own 2010}
+  \verb{url}
+  \verb http://buhera.blog.hu/2010/03/25/pwn2own_2010
+  \endverb
+  \field{year}{2010}
+\endentry
+
+\entry{buhera_pwn2own_2011}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Buherátor}{B.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{B1}
+  \strng{fullhash}{B1}
+  \field{labelyear}{2011}
+  \field{sortinit}{B}
+  \field{note}{\\Letöltve: 2012. március 12.\\}
+  \field{title}{Pwn2Own 2011. összefoglaló}
+  \verb{url}
+  \verb http://buhera.blog.hu/2011/03/12/pwn2own_osszefoglalo_2011
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{buhera_pwn2own_2012}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Buherátor}{B.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{B1}
+  \strng{fullhash}{B1}
+  \field{labelyear}{2012}
+  \field{sortinit}{B}
+  \field{note}{\\Letöltve: 2012. március 12.\\}
+  \field{title}{Pwn2Own és Pwnium}
+  \verb{url}
+  \verb http://buhera.blog.hu/2012/03/08/pwn2own_es_pwnium
+  \endverb
+  \field{year}{2012}
+\endentry
+
+\entry{newspapers_go_to_paying_model}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Edmonds}{E.}%
+     {Rick}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ER1}
+  \strng{fullhash}{ER1}
+  \field{labelyear}{2011}
+  \field{sortinit}{E}
+  \field{hyphenation}{english}
+  \field{note}{\\Letöltve: 2012. február 23.\\}
+  \field{title}{9 reasons newspapers are suddenly asking print subscribers to
+  pay for full Web access}
+  \verb{url}
+  \verb http://www.poynter.org/latest-news/business-news/the-biz-blog/141628/9-
+  \verb reasons-newspapers-are-suddenly-asking-print-subscribers-to-pay-for-ful
+  \verb l-web-access/
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{newspaper_ad_revenue}{misc}{}
+  \field{labelyear}{2009}
+  \field{sortinit}{E}
+  \field{hyphenation}{english}
+  \field{note}{\\Letöltve: 2012. március 2.\\}
+  \field{title}{EU newspapers record worst-ever drop in ad revenue}
+  \verb{url}
+  \verb http://www.euractiv.com/innovation/eu-newspapers-record-worst-drop-ad-r
+  \verb evenue/article-185349
+  \endverb
+  \field{year}{2009}
+\endentry
+
+\entry{fb_stat}{misc}{}
+  \field{labelyear}{2011}
+  \field{sortinit}{F}
+  \field{note}{\\Letöltve: 2012. március 20.\\}
+  \field{title}{Facebook Statistics}
+  \verb{url}
+  \verb http://newsroom.fb.com/content/default.aspx?NewsAreaId=22
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{kaspersky}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Goodin}{G.}%
+     {Dan}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GD1}
+  \strng{fullhash}{GD1}
+  \field{labelyear}{2009}
+  \field{sortinit}{G}
+  \field{note}{\\Letöltve: 2012. március 20.\\}
+  \field{title}{Security boss calls for end to net anonymity}
+  \verb{url}
+  \verb http://www.theregister.co.uk/2009/10/16/kaspersky_rebukes_net_anonymity
+  \verb /
+  \endverb
+  \field{year}{2009}
+\endentry
+
+\entry{css_history_hack}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Grossman}{G.}%
+     {Jeremiah}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GJ1}
+  \strng{fullhash}{GJ1}
+  \field{labelyear}{2006}
+  \field{sortinit}{G}
+  \field{note}{\\Letöltve: 2012. február 22.\\}
+  \field{title}{I know where you've been}
+  \verb{url}
+  \verb http://jeremiahgrossman.blogspot.com/2006/08/i-know-where-youve-been.ht
+  \verb ml
+  \endverb
+  \field{year}{2006}
+\endentry
+
+\entry{webstorage}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hickson}{H.}%
+     {Ian}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HI1}
+  \strng{fullhash}{HI1}
+  \field{labelyear}{2011}
+  \field{sortinit}{H}
+  \field{note}{\\Letöltve: 2012. március 16.\\}
+  \field{title}{Web Storage}
+  \verb{url}
+  \verb http://www.w3.org/TR/webstorage/
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{mdn_indexeddb}{misc}{}
+  \field{labelyear}{2012}
+  \field{sortinit}{I}
+  \field{note}{\\Letöltve: 2012. március 24.\\}
+  \field{title}{IndexedDB}
+  \verb{url}
+  \verb https://developer.mozilla.org/en/IndexedDB
+  \endverb
+  \field{year}{2012}
+\endentry
+
+\entry{chrome_six_weeks}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Laforge}{L.}%
+     {Anthony}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LA1}
+  \strng{fullhash}{LA1}
+  \field{labelyear}{2010}
+  \field{sortinit}{L}
+  \field{note}{\\Letöltve: 2012. március 1.\\}
+  \field{title}{Release Early, Release Often}
+  \verb{url}
+  \verb http://blog.chromium.org/2010/07/release-early-release-often.html
+  \endverb
+  \field{year}{2010}
+\endentry
+
+\entry{mozilla_six_weeks}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Nightingale}{N.}%
+     {Johnathan}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NJ1}
+  \strng{fullhash}{NJ1}
+  \field{labelyear}{2011}
+  \field{sortinit}{N}
+  \field{note}{\\Letöltve: 2012. március 5.\\}
+  \field{title}{Every Six Weeks}
+  \verb{url}
+  \verb https://blog.mozilla.com/futurereleases/2011/07/19/every-six-weeks/
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{msdn_cookie}{misc}{}
+  \field{labelyear}{2007}
+  \field{sortinit}{N}
+  \field{note}{\\Letöltve: 2012. március 21.\\}
+  \field{title}{Number and size limits of a cookie in Internet Explorer}
+  \verb{url}
+  \verb http://support.microsoft.com/kb/306070
+  \endverb
+  \field{year}{2007}
+\endentry
+
+\entry{chromium_sandbox}{misc}{}
+  \field{sortinit}{S}
+  \field{note}{\\Letöltve: 2012. március 21.\\}
+  \field{title}{Sandbox}
+  \verb{url}
+  \verb http://dev.chromium.org/developers/design-documents/sandbox
+  \endverb
+\endentry
+
+\entry{schneier}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Schneier}{S.}%
+     {Bruce}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SB1}
+  \strng{fullhash}{SB1}
+  \field{labelyear}{2010}
+  \field{sortinit}{S}
+  \field{note}{\\Letöltve: 2012. március 20.\\}
+  \field{title}{Anonymity and the Internet}
+  \verb{url}
+  \verb http://www.schneier.com/blog/archives/2010/02/anonymity_and_t_3.html
+  \endverb
+  \field{year}{2010}
+\endentry
+
+\entry{google_on_safari}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Schubarth}{S.}%
+     {Cromwell}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SC1}
+  \strng{fullhash}{SC1}
+  \field{labelyear}{2012}
+  \field{sortinit}{S}
+  \field{note}{\\Letöltve: 2012. február 20.\\}
+  \field{title}{Google, others spy on Apple Safari users}
+  \verb{url}
+  \verb http://www.bizjournals.com/sanjose/news/2012/02/17/google-facebook-othe
+  \verb rs-spy-on-apple.html
+  \endverb
+  \field{year}{2012}
+\endentry
+
+\entry{thinkdigital_fb}{misc}{}
+  \name{author}{2}{}{%
+    {{}%
+     {ThinkDigital}{T.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Facebook}{F.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TF1}
+  \strng{fullhash}{TF1}
+  \field{labelyear}{2011}
+  \field{sortinit}{T}
+  \field{hyphenation}{magyar}
+  \field{note}{\\Letöltve: 2012. február 22.\\}
+  \field{title}{HIRDETÉSI FELÜLETEK TECHNIKAI SPECIFIKÁCIÓJA}
+  \verb{url}
+  \verb http://thinkdigital.hu/web/files/richeditor/filemanager/Specifikacio_20
+  \verb 11-Q2_-_FACEBOOK.pdf
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{thn_sopa}{misc}{}
+  \field{labelyear}{2011}
+  \field{sortinit}{T}
+  \field{note}{\\Letöltve: 2012. március 6.\\}
+  \field{title}{Tor anonymity will become illegal with SOPA acts?}
+  \verb{url}
+  \verb http://thehackernews.com/2011/12/tor-anonymity-will-become-illegal-with
+  \verb .html
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{safari_pornmode}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Trapani}{T.}%
+     {Gina}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TG1}
+  \strng{fullhash}{TG1}
+  \field{labelyear}{2004}
+  \field{sortinit}{T}
+  \field{note}{\\Letöltve: 2012. február 27.\\}
+  \field{title}{Safari’s private (porn) browsing mode}
+  \verb{url}
+  \verb http://lifehacker.com/102146/safaris-private-porn-browsing-mode?tag=sof
+  \verb twaremacosx
+  \endverb
+  \field{year}{2004}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

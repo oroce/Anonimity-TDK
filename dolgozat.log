@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  23 MAR 2012 01:28
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  26 MAR 2012 03:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -19,8 +19,8 @@ ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
 .
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -280,39 +280,231 @@ File: babel.def 2008/07/06 v3.8l Babel common definitions
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
+) (./magyar.ldf
+Language: magyar 2007/10/19 v1.5 Magyar support from the babel v3.7 system
+Package babel Info: Making ` an active character on input line 2726.
+\c@footnote@add=\count89
+\c@footnote@ch=\count90
+)) (/usr/local/texlive/2011/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2011/06/08 v1.5 programmable bibliographies
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count91
 )
-(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/magyar.ldf
-Language: magyar 2005/03/30 v1.4j Magyar support from the babel system
-Package babel Info: Making ` an active character on input line 597.
+\etb@tempcnta=\count92
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count93
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\bibdata{bibliography}
-No file dolgozat.bbl.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+\c@listtotal=\count94
+\c@listcount=\count95
+\c@liststart=\count96
+\c@liststop=\count97
+\c@citecount=\count98
+\c@citetotal=\count99
+\c@multicitecount=\count100
+\c@multicitetotal=\count101
+\c@instcount=\count102
+\c@maxnames=\count103
+\c@minnames=\count104
+\c@maxitems=\count105
+\c@minitems=\count106
+\c@citecounter=\count107
+\c@savedcitecounter=\count108
+\c@uniquelist=\count109
+\c@uniquename=\count110
+\c@refsection=\count111
+\c@refsegment=\count112
+\c@maxextrayear=\count113
+\c@maxextraalpha=\count114
+\c@abbrvpenalty=\count115
+\c@highnamepenalty=\count116
+\c@lownamepenalty=\count117
+\c@maxparens=\count118
+\c@parenlevel=\count119
+\blx@tempcnta=\count120
+\blx@tempcntb=\count121
+\blx@maxsection=\count122
+\blx@maxsegment=\count123
+\blx@notetype=\count124
+\blx@parenlevel@text=\count125
+\blx@parenlevel@foot=\count126
+\labelnumberwidth=\skip43
+\labelalphawidth=\skip44
+\shorthandwidth=\skip45
+\biblabelsep=\skip46
+\bibitemsep=\skip47
+\bibnamesep=\skip48
+\bibinitsep=\skip49
+\bibparsep=\skip50
+\bibhang=\skip51
+\blx@auxin=\read1
+\blx@auxout=\write4
+\c@labelname=\count127
+\c@savedlabelname=\count128
+\c@author=\count129
+\c@savedauthor=\count130
+\c@shortauthor=\count131
+\c@savedshortauthor=\count132
+\c@editor=\count133
+\c@savededitor=\count134
+\c@editora=\count135
+\c@savededitora=\count136
+\c@editorb=\count137
+\c@savededitorb=\count138
+\c@editorc=\count139
+\c@savededitorc=\count140
+\c@shorteditor=\count141
+\c@savedshorteditor=\count142
+\c@bookauthor=\count143
+\c@savedbookauthor=\count144
+\c@translator=\count145
+\c@savedtranslator=\count146
+\c@annotator=\count147
+\c@savedannotator=\count148
+\c@commentator=\count149
+\c@savedcommentator=\count150
+\c@introduction=\count151
+\c@savedintroduction=\count152
+\c@foreword=\count153
+\c@savedforeword=\count154
+\c@afterword=\count155
+\c@savedafterword=\count156
+\c@holder=\count157
+\c@savedholder=\count158
+\c@namea=\count159
+\c@savednamea=\count160
+\c@nameb=\count161
+\c@savednameb=\count162
+\c@namec=\count163
+\c@savednamec=\count164
+\c@institution=\count165
+\c@savedinstitution=\count166
+\c@language=\count167
+\c@savedlanguage=\count168
+\c@location=\count169
+\c@savedlocation=\count170
+\c@organization=\count171
+\c@savedorganization=\count172
+\c@origlocation=\count173
+\c@savedoriglocation=\count174
+\c@origpublisher=\count175
+\c@savedorigpublisher=\count176
+\c@pageref=\count177
+\c@savedpageref=\count178
+\c@publisher=\count179
+\c@savedpublisher=\count180
+\c@lista=\count181
+\c@savedlista=\count182
+\c@listb=\count183
+\c@savedlistb=\count184
+\c@listc=\count185
+\c@savedlistc=\count186
+\c@listd=\count187
+\c@savedlistd=\count188
+\c@liste=\count189
+\c@savedliste=\count190
+\c@listf=\count191
+\c@savedlistf=\count192
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2011/06/08 v1.5 biblatex generic compatibility
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2011/06/08 v1.5 biblatex generic definitions
+\c@smartand=\count193
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2011/06/08 v1.5 biblatex natbib compatibility
+)
+Package biblatex Info: Trying to load bibliography style 'magyar'...
+Package biblatex Info: ... file 'magyar.bbx' found.
+
+(./magyar.bbx
+File: magyar.bbx 
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2011/06/08 v1.5 biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2011/06/08 v1.5 biblatex bibliography style
+)))
+Package biblatex Info: Trying to load citation style 'magyar'...
+Package biblatex Info: ... file 'magyar.cbx' found.
+
+(./magyar.cbx
+File: hugplain.cbx 
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
+File: authoryear.cbx 2011/06/08 v1.5 biblatex citation style
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
 (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/listingsutf8.sty
 Package: listingsutf8 2007/11/11 v1.1 Adding support for UTF-8 to listings (HO)
 
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/listings/listings.sty
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks16
-)
-\lst@mode=\count89
+\lst@mode=\count194
 \lst@gtempboxa=\box26
 \lst@token=\toks17
-\lst@length=\count90
+\lst@length=\count195
 \lst@currlwidth=\dimen105
-\lst@column=\count91
-\lst@pos=\count92
+\lst@column=\count196
+\lst@pos=\count197
 \lst@lostspace=\dimen106
 \lst@width=\dimen107
-\lst@newlines=\count93
-\lst@lineno=\count94
+\lst@newlines=\count198
+\lst@lineno=\count199
 \lst@maxwidth=\dimen108
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
-\c@lstnumber=\count95
-\lst@skipnumbers=\count96
+\c@lstnumber=\count200
+\lst@skipnumbers=\count201
 \lst@framebox=\box27
 )
 (/usr/local/texlive/2011/texmf-dist/tex/latex/listings/listings.cfg
@@ -358,7 +550,7 @@ Package color Info: Driver file: pdftex.def on input line 130.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count97
+\Gread@gobject=\count202
 ))
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -430,23 +622,16 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen111
 \extrarowheight=\dimen112
 \NC@list=\toks18
-\extratabsurround=\skip43
-\backup@length=\skip44
+\extratabsurround=\skip52
+\backup@length=\skip53
 )
 \TX@col@width=\dimen113
 \TX@old@table=\dimen114
 \TX@old@col=\dimen115
 \TX@target=\dimen116
 \TX@delta=\dimen117
-\TX@cols=\count98
+\TX@cols=\count203
 \TX@ftn=\toks19
-)
-(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/times.sty
-Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
 (/usr/local/texlive/2011/texmf-dist/tex/latex/anysize/anysize.sty
 Package: anysize 1994/08/13 setting margin sizes
@@ -459,27 +644,43 @@ Version 1.0, Aug 13, 1994
 \@Topmargin=\dimen120
 \@Bottommargin=\dimen121
 ) (/usr/local/texlive/2011/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip45
-\f@ncyO@elh=\skip46
-\f@ncyO@erh=\skip47
-\f@ncyO@olh=\skip48
-\f@ncyO@orh=\skip49
-\f@ncyO@elf=\skip50
-\f@ncyO@erf=\skip51
-\f@ncyO@olf=\skip52
-\f@ncyO@orf=\skip53
+\fancy@headwidth=\skip54
+\f@ncyO@elh=\skip55
+\f@ncyO@erh=\skip56
+\f@ncyO@olh=\skip57
+\f@ncyO@orh=\skip58
+\f@ncyO@elf=\skip59
+\f@ncyO@erf=\skip60
+\f@ncyO@olf=\skip61
+\f@ncyO@orf=\skip62
 )
 (/usr/local/texlive/2011/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
 \nomlabelwidth=\dimen122
 \nom@tempdim=\dimen123
-\nomitemsep=\skip54
+\nomitemsep=\skip63
 )
-\@nomenclaturefile=\write4
-\openout4 = `dolgozat.nlo'.
+\@nomenclaturefile=\write5
+\openout5 = `dolgozat.nlo'.
 
 
 Writing nomenclature file dolgozat.nlo
+Package biblatex Info: Trying to load language 'magyar' -> 'magyar'...
+Package biblatex Info: ... file 'magyar.lbx' found.
+(./magyar.lbx
+File: magyar.lbx 
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2011/06/08 v1.5 biblatex localization
+))
+
+Package biblatex Warning: 'babel' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count204
+\@quotereset=\count205
 (./dolgozat.aux (./coverpage.aux) (./introduction.aux) (./technology.aux)
 (./security.aux) (./business.aux) (./summary.aux))
 \openout1 = `dolgozat.aux'.
@@ -496,25 +697,47 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 52.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 52.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-\c@lstlisting=\count99
+
+Package magyar.ldf Warning: No effect of \def\magyarOptions{...}
+(magyar.ldf)                please move it before \usepackage[magyar]{babel}.
+
+
+Package magyar.ldf Warning: No effect on fancyhdr.sty,
+(magyar.ldf)                please load it before \usepackage[magyar]{babel}.
+
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+Package biblatex Warning: Data encoding is 'utf8'.
+(biblatex)                Use backend=biber.
+
+\openout4 = `dolgozat-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'dolgozat.bbl' found.
+(./dolgozat.bbl)
+Package biblatex Info: Reference section=0 on input line 52.
+Package biblatex Info: Reference segment=0 on input line 52.
+\c@lstlisting=\count206
 
 (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count100
+\scratchcounter=\count207
 \scratchdimen=\dimen124
 \scratchbox=\box28
-\nofMPsegments=\count101
-\nofMParguments=\count102
+\nofMPsegments=\count208
+\nofMParguments=\count209
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count103
+\MPscratchCnt=\count210
 \MPscratchDim=\dimen125
-\MPnumerator=\count104
-\makeMPintoPDFobject=\count105
+\MPnumerator=\count211
+\makeMPintoPDFobject=\count212
 \everyMPtoPDFconversion=\toks21
 ) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -547,10 +770,13 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/report.cls
+LaTeX Info: Redefining \cal on input line 586.
+LaTeX Info: Redefining \mit on input line 587.
+)
 \openout2 = `coverpage.aux'.
 
-
-(./coverpage.tex (/usr/local/texlive/2011/texmf-dist/tex/latex/lm/ot1lmr.fd)
+ (./coverpage.tex (/usr/local/texlive/2011/texmf-dist/tex/latex/lm/ot1lmr.fd)
 (/usr/local/texlive/2011/texmf-dist/tex/latex/lm/omllmm.fd)
 (/usr/local/texlive/2011/texmf-dist/tex/latex/lm/omslmsy.fd)
 (/usr/local/texlive/2011/texmf-dist/tex/latex/lm/omxlmex.fd)
@@ -572,27 +798,33 @@ Overfull \hbox (28.82275pt too wide) in alignment at lines 6--6
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 6--7
+Overfull \hbox (17.0pt too wide) in paragraph at lines 6--7
 [][] 
  []
 
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 12.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 12.
 <assets/tdk.png, id=3, 243.91125pt x 325.215pt> <use assets/tdk.png>
+Overfull \vbox (7.30086pt too high) detected at line 30
+ []
+
 <use assets/tdk.png>
+Overfull \vbox (7.30086pt too high) detected at line 30
+ []
+
 File: assets/tdk.png Graphic file (type png)
- <use assets/tdk.png>
+<use assets/tdk.png>
 Package pdftex.def Info: assets/tdk.png used on input line 30.
 (pdftex.def)             Requested size: 115.43167pt x 153.90805pt.
+
+Overfull \vbox (7.30086pt too high) detected at line 30
+ []
+
 
 Overfull \hbox (24.0pt too wide) in alignment at lines 30--30
 [][] 
  []
 
 
-Overfull \hbox (17.6248pt too wide) in paragraph at lines 30--31
+Overfull \hbox (16.99998pt too wide) in paragraph at lines 30--31
 [][] 
  []
 
@@ -614,50 +846,55 @@ Overfull \hbox (18.78522pt too wide) in alignment at lines 41--41
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 41--42
+Overfull \hbox (17.0pt too wide) in paragraph at lines 41--42
 [][] 
  []
 
 [1
 
 
+
 {/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./asset
 s/bce.png> <./assets/szechenyi.png> <./assets/tdk.png (PNG copy)> <./assets/meg
-ujul.png> <./assets/eutam.png>])
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 59.
- (./dolgozat.toc)
-\tf@toc=\write5
-\openout5 = `dolgozat.toc'.
+ujul.png> <./assets/eutam.png>]) (./dolgozat.toc)
+\tf@toc=\write6
+\openout6 = `dolgozat.toc'.
 
  (./dolgozat.nls [2
 
 
 
-])
+
+
+pdfTeX warning: pdflatex: pop empty color page stack 0
+]
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
 [3
 
-]
+])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.1595pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
 1. fejezet.
-[4
+[5
 
 ]
 \openout2 = `introduction.aux'.
 
- (./introduction.tex
+ (./introduction.tex [6
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 15.13202pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5
-
-]) [6
+]) [7
 
 ]
 2. fejezet.
-[7
+[8
 
 
 ]
@@ -669,26 +906,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--7
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 3--7
-\T1/ptm/m/n/12 a fel-hasz-ná-ló-ról. Ez-után pe-dig a le-he-t®-sé-ge-ket ke-rül
--nek mér-le-ge-lésre tech-no-ló-gia
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-[8
+[9
 
 ] (./assets/request_header.text
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 1.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 1.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
+(/usr/local/texlive/2011/texmf-dist/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 1.
 )
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
@@ -699,15 +930,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-[9
+[10
 
-]
-Underfull \hbox (badness 6542) in paragraph at lines 63--68
-\T1/ptm/m/n/12 ret(https://developer.mozilla.org/en/IndexedDB)) (http://www.w3.
-org/TR/IndexedDB/),
- []
-
-[10]
+] [11]
 Underfull \hbox (badness 10000) in paragraph at lines 90--94
 
  []
@@ -717,65 +942,166 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--94
 
  []
 
-
-Underfull \hbox (badness 1412) in paragraph at lines 90--94
-\T1/ptm/m/n/12 fut-tatni nem webre fej-lesz-tett szoft-ve-re-ket, ame-lyek ter-
-mé-sze-te-sen szinte min-dent
- []
-
-[11]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
-[12]) [13]
+) [13] [14]
 3. fejezet.
-[14
+[15
 
 
 ]
 \openout2 = `security.aux'.
 
- (./security.tex)
-4. fejezet.
-[15
+ (./security.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
+
+ []
+
+[16
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 44--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+[18]) [19]
+4. fejezet.
+[20
 
 
 ]
 \openout2 = `business.aux'.
 
- (./business.tex)
-5. fejezet.
-[16
+ (./business.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 12--13
+\T1/lmr/m/n/10.95 már re-giszt-rá-ci-ó-kor meg-oszt-ják az alap-ve-t® in-for-má
+-ci-ó-kat ma-guk-ról (név, szü-le-té-si
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 20.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 1484) in paragraph at lines 19--25
+\T1/lmr/m/n/10.95 szer-ve-ze-te a Ge-mi-us ($\T1/lmtt/m/n/10.95 http : / / gemi
+us . hu$\T1/lmr/m/n/10.95 ), il-let-ve fon-tos ki-emel-ni, a je-len-leg egy-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--25
+
+ []
+
+[21
+
+])
+Underfull \hbox (badness 10000) in paragraph at lines 28--74
+
+ []
+
+[22]
+5. fejezet.
+[23
 
 
 ]
 \openout2 = `summary.aux'.
 
- (./summary.tex) (./dolgozat.aux (./coverpage.aux) (./introduction.aux)
-(./technology.aux) (./security.aux) (./business.aux) (./summary.aux)) ) 
+ (./summary.tex) [24
+
+] [25
+
+
+] [26] [27] (./dolgozat.aux (./coverpage.aux)
+(./introduction.aux) (./technology.aux) (./security.aux) (./business.aux)
+(./summary.aux))
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
+Package logreq Info: Writing requests to 'dolgozat.run.xml'.
+\openout1 = `dolgozat.run.xml'.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4788 strings out of 493633
- 64710 string characters out of 3143378
- 157162 words of memory out of 3000000
- 7909 multiletter control sequences out of 15000+200000
- 36038 words of font info for 41 fonts, out of 3000000 for 9000
+ 10286 strings out of 493633
+ 161700 string characters out of 3143378
+ 353230 words of memory out of 3000000
+ 13348 multiletter control sequences out of 15000+200000
+ 56137 words of font info for 40 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 37i,13n,43p,710b,1326s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/lo
-cal/texlive/2011/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
-e/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2011/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2011/texmf-dis
-t/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2011/texmf-dist/fonts/ty
-pe1/urw/times/utmb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/ti
-mes/utmr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a
-.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dolgozat.pdf (16 pages, 215009 bytes).
+ 40i,13n,56p,1068b,2391s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
+texlive/2011/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/20
+11/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2011/texmf-d
+ist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2011/texmf-dist/fonts/
+type1/public/lm/lmcsc10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/pub
+lic/lm/lmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/lm/lmri
+10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/lm/lmro10.pfb></u
+sr/local/texlive/2011/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/t
+exlive/2011/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on dolgozat.pdf (27 pages, 369551 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

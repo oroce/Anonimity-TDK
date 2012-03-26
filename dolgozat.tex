@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper,english,magyar,oneside]{report}
+\documentclass[11pt,a4paper,english,magyar,oneside]{report}
 \usepackage{makeidx}
 \makeindex
 \usepackage{t1enc}
@@ -6,7 +6,7 @@
 \usepackage[utf8]{inputenc} % mert nem a középkorban vagyunk
 \usepackage[magyar]{babel}
 \def\magyarOptions{hyphenation=huhyphn}
-%\usepackage[style=magyar,natbib=true,babel=other]{biblatex}
+\usepackage[style=magyar,natbib=true,babel=other]{biblatex}
 \bibliography{bibliography}
 \usepackage{listingsutf8}
 \usepackage{color}
@@ -20,10 +20,10 @@
 \usepackage{lmodern} %szépek lesznek tőle a betűk a pdfben
 \usepackage{graphicx}
 \usepackage{tabularx}
-
 \usepackage{url}
+
 %\usepackage{subfig}
-\usepackage{times}
+%\usepackage{times}
 % 2.5 centis margó mindenütt, bal oldalt +1 centi 
 \usepackage{anysize}
 \paperwidth=21cm \paperheight29.7cm
@@ -73,13 +73,12 @@
 \chapter{Üzleti}
 \include{business}
 
-
 \chapter{Összefoglalás}
 \include{summary}
 
 \newpage
 
-%\printbibliography
+\printbibliography
 
 
 %}

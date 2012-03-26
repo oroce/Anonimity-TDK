@@ -1,25 +1,75 @@
-\select@language {magyar}
-\select@language {magyar}
-\contentsline {chapter}{\numberline {1.}Bevezet\IeC {\'e}s}{4}
-\contentsline {section}{\numberline {1.1.}Anonimit\IeC {\'a}s felhaszn\IeC {\'a}l\IeC {\'o}i oldalr\IeC {\'o}l}{6}
-\contentsline {section}{\numberline {1.2.}Anonimit\IeC {\'a}s \IeC {\"u}zleti oldalr\IeC {\'o}l}{6}
-\contentsline {section}{\numberline {1.3.}A t\IeC {\'e}ma l\IeC {\'e}tjogosults\IeC {\'a}ga, meg\IeC {\'e}ri vele foglalkozni?}{6}
-\contentsline {chapter}{\numberline {2.}Technol\IeC {\'o}gia}{7}
-\contentsline {section}{\numberline {2.1.}Mit lehet m\IeC {\'e}rni?}{8}
-\contentsline {paragraph}{Szerver oldali m\IeC {\'e}r\IeC {\'e}s}{8}
-\contentsline {paragraph}{Kliens oldali m\IeC {\'e}r\IeC {\'e}s}{9}
-\contentsline {subparagraph}{B\IeC {\"o}ng\IeC {\'e}sz\IeC {\H o}k\IeC {\'e}pess\IeC {\'e}gek}{9}
-\contentsline {subparagraph}{B\IeC {\H o}v\IeC {\'\i }tm\IeC {\'e}nyek}{10}
-\contentsline {subparagraph}{K\IeC {\'e}perny\IeC {\H o}adatok}{10}
-\contentsline {subparagraph}{S\IeC {\"u}tik}{10}
-\contentsline {subparagraph}{Lokaliz\IeC {\'a}ci\IeC {\'o}s adatok}{11}
-\contentsline {subparagraph}{Egy\IeC {\'e}b m\IeC {\'e}rhet\IeC {\H o} adatok}{12}
-\contentsline {section}{\numberline {2.2.}Mit \IeC {\'e}rdemes m\IeC {\'e}rni?}{12}
-\contentsline {paragraph}{A HTTP fejl\IeC {\'e}c}{12}
-\contentsline {paragraph}{A b\IeC {\"o}ng\IeC {\'e}sz\IeC {\H o} neve, verzi\IeC {\'o}ja}{12}
-\contentsline {paragraph}{S\IeC {\"u}tik}{13}
-\contentsline {paragraph}{Lokaliz\IeC {\'a}ci\IeC {\'o}s inform\IeC {\'a}ci\IeC {\'o}k}{13}
-\contentsline {paragraph}{B\IeC {\H o}v\IeC {\'\i }tm\IeC {\'e}nyek}{13}
-\contentsline {chapter}{\numberline {3.}Biztons\IeC {\'a}gi}{14}
-\contentsline {chapter}{\numberline {4.}\IeC {\"U}zleti}{15}
-\contentsline {chapter}{\numberline {5.}\IeC {\"O}sszefoglal\IeC {\'a}s}{16}
+\select@language {magyar} \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {chapter}{\numberline {1}Bevezet\IeC {\'e}s}{5}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {section}{\numberline {1.1}Anonimit\IeC {\'a}s felhaszn\IeC {\'a}l\IeC {\'o}i oldalr\IeC {\'o}l}{7}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {section}{\numberline {1.2}Anonimit\IeC {\'a}s \IeC {\"u}zleti oldalr\IeC {\'o}l}{7}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {section}{\numberline {1.3}A t\IeC {\'e}ma l\IeC {\'e}tjogosults\IeC {\'a}ga, meg\IeC {\'e}ri vele foglalkozni?}{7}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {chapter}{\numberline {2}Technol\IeC {\'o}gia}{8}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {section}{\numberline {2.1}Mit lehet m\IeC {\'e}rni?}{9}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {paragraph}{Szerver oldali m\IeC {\'e}r\IeC {\'e}s}{9}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {paragraph}{Kliens oldali m\IeC {\'e}r\IeC {\'e}s}{10}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {subparagraph}{B\IeC {\"o}ng\IeC {\'e}sz\IeC {\H o}k\IeC {\'e}pess\IeC {\'e}gek}{10}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {subparagraph}{B\IeC {\H o}v\IeC {\'\i }tm\IeC {\'e}nyek}{10}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {subparagraph}{K\IeC {\'e}perny\IeC {\H o}adatok}{11}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {subparagraph}{S\IeC {\"u}tik}{11}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {subparagraph}{Lokaliz\IeC {\'a}ci\IeC {\'o}s adatok}{11}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {subparagraph}{Egy\IeC {\'e}b m\IeC {\'e}rhet\IeC {\H o} adatok}{12}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {section}{\numberline {2.2}Mit \IeC {\'e}rdemes m\IeC {\'e}rni?}{13}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {paragraph}{A HTTP fejl\IeC {\'e}c}{13}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {paragraph}{A b\IeC {\"o}ng\IeC {\'e}sz\IeC {\H o} neve, verzi\IeC {\'o}ja}{13}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {paragraph}{S\IeC {\"u}tik}{13}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {paragraph}{Lokaliz\IeC {\'a}ci\IeC {\'o}s inform\IeC {\'a}ci\IeC {\'o}k}{13}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {paragraph}{B\IeC {\H o}v\IeC {\'\i }tm\IeC {\'e}nyek}{14}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {chapter}{\numberline {3}Biztons\IeC {\'a}gi}{15}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {section}{\numberline {3.1}Anonimit\IeC {\'a}s elleni k\IeC {\'\i }s\IeC {\'e}rletek}{16}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {subsubsection}{SOPA \IeC {\'e}s az ACTA h\IeC {\'a}ttere}{16}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {section}{\numberline {3.2}Anonimit\IeC {\'a}s biztons\IeC {\'a}gi k\IeC {\'e}rd\IeC {\'e}sei a b\IeC {\"o}ng\IeC {\'e}sz\IeC {\H o}ben}{16}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {section}{\numberline {3.3}Mire \IeC {\'e}rdemes figyelni?}{17}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {paragraph}{S\IeC {\"u}tik}{17}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {paragraph}{Lokaliz\IeC {\'a}ci\IeC {\'o}s inform\IeC {\'a}ci\IeC {\'o}k}{18}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {paragraph}{B\IeC {\"o}ng\IeC {\'e}sz\IeC {\H o}k\IeC {\'e}pess\IeC {\'e}gek}{18}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {paragraph}{B\IeC {\H o}v\IeC {\'\i }tm\IeC {\'e}nyek}{18}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {subsection}{\numberline {3.3.1}Inkognit\IeC {\'o} m\IeC {\'o}d}{19}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {subsubsection}{Mit tud az inkognit\IeC {\'o} m\IeC {\'o}d?}{19}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {chapter}{\numberline {4}\IeC {\"U}zleti}{20}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {section}{\numberline {4.1}A szerepl\IeC {\H o}k}{21}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {subsubsection}{K\IeC {\"o}z\IeC {\"o}ss\IeC {\'e}gi oldalak}{21}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {subsubsection}{H\IeC {\'\i }r- \IeC {\'e}s h\IeC {\'\i }rgy\IeC {\H u}jt\IeC {\H o} oldalak}{21}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {subsubsection}{Keres\IeC {\H o}k}{22}
+\defcounter {refsection}{0}\relax 
+\select@language {magyar} \contentsline {chapter}{\numberline {5}\IeC {\"O}sszefoglal\IeC {\'a}s}{23}

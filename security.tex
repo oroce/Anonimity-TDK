@@ -1,0 +1,78 @@
+%!TEX root = /Users/oroce/corvinus/Anonimity-TDK/dolgozat.tex
+\section{Anonimitás elleni kísérletek} % (fold)
+\label{ssub:subsubsection_name}
+
+Az internetes anonimitás már régóta vita tárgya. A Kaspersky biztonsági cég szerint az internet legnagyobb hibája az anonimitás (\cite{kaspersky}).\hfill\\
+
+Az anonimitás ellen sok érv felhozható, mint ahogy meg is teszik évről évre. Ekkor az egyik legfontosabb érv (az anonimitás ellen) a kéretlen levelek, a gyermekpornográfia, és az internetes behatolások számának csökkentése, megszüntetése. Azonban, mint Bruce Schneier is megemlíti (\cite{schneier}) az anonimitás megszüntetésének hatására a felhasználók kerülőutat választanának vagy mások gépeire betörve - a vétlen személyazonosságával - hajtanák végre az illegális tevékenységeket.\hfill\\
+
+Az internetes anonimitás megakadályozása illetve megszüntetése ellen irányuló jogszabályok és törvények a 2011-es és 2012-es években nagy félzúdulást váltottak a közösségben. Ezek közül a legfontosabbak az Egyesült Államokban bevezetni kívánt \textbf{SOPA}, és ennek az európai verziója az \textbf{ACTA}.
+
+\subsubsection{SOPA és az ACTA háttere} % (fold)
+\label{ssect:sopa_és_az_acta_háttere}
+Mind a SOPA, mind az ACTA a szerzői jogok védelme, a szellemi tulajdonok hamisítása ellen létrehozott regulák gyűjteménye, azonban bekerültek olyan cikkelyek is a javaslatokba, melyek a felhasználók szólásszabadságát is erősen korlátozták volna.\hfill\\
+\\
+De milyen kapcsolatban áll az internetes anonimitás a SOPA, ACTA törvényjavaslatokkal?
+\\
+A dolgozat alapvetően a felhasználók azonosításának technikai lehetőségét tűzte ki célul, azonban az említett törvényjavaslatok mellett, igazából a téma létjogosultsága rengeteget csökkenne. A SOPA, és ACTA elfogadásával az amerikai, és európai internetezők anonimitása megszűnne, az ISP\nomenclature{ISP - Internet Service Provider}{\hfill\\ISP} számára kötelező válna a forgalom monitorozása, az adatok kiadása az illetékes hatóságoknak. \cite{thn_sopa} 
+% subsection sopa_és_az_acta_háttere (end)
+
+% section subsubsection_name (end)
+
+\section{Anonimitás biztonsági kérdései a böngészőben} % (fold)
+\label{sect:anonimitás_biztonsági_kérdései_a_böngészőben}
+Mielőtt a webes alkalmazások biztonsági kockázatairól, és az azok ellen való védekezésről esne szó, érdemes megvizsgálni maguknak a böngészőknek a veszélyeit.\hfill\\
+\\
+Az böngészők biztonsága rendkívül fontossá vált az internetes elvégezhető feladatok gyarapodásával. Hiszen a felhasználók most már nem csak híreket olvasnak, hanem böngészőn keresztül fizetik be a havi áramszámlát, adják le az adóbevallást vagy éppen videóhívás formájában beszélgetnek családjukkal.\hfill\\
+Mivel a legtöbb felhasználónak az internet magát a böngészőt jelenti, ezért a legtöbb felhasználókat érintő internetes támadás a böngészőből érkezik. Mivel a böngészők a felhasználó számítógépen szinte mindenhez hozzáfér (szoftverhez és hardverhez), ezért ha egy támadó megszerzi a böngésző feletti uralmat, akkor az a számítógép feletti uralmat is jelenti.\hfill\\
+A kanadai \textit{Pwn2Own}\nomenclature{Pwn2Own konferencia}{\hfill\\Pw2Own a CanSecWest biztonsági cég éves konferenciájának a részeként kerül megrendezésre.\\Aki leggyorsabban át tudja venni az uralmat az internet böngészők aktuális verziója felett, pénzjutalomban részesül.} nevű évente megrendezésre kerülő biztonsági konferencián a biztonsági szakemberek ún. fehér kalapos hackerek\nomenclature{fehér kalapos hacker - white-hat hacker}{\hfill\\white-hat hacker}, próbálják meg megkerülni a böngészők biztonsági mechanizmusát. A versenyen 2009-ben (\cite{buhera_pwn2own_2009}), 2010-ben a Google Chrome termékének kívételével az összes böngésző a hackerekkel szemben (\cite{buhera_pwn2own_2010}), 2011-ben a Mozilla Firefox és a Google Chrome felett sem sikerült átvenni az uralmat (\cite{buhera_pwn2own_2011}), viszont 2012-ben már minden böngészőben sikerült hibát találni a kíváncsiskodó szakembereknek (\cite{buhera_pwn2own_2012}).
+% section anonimitás_biztonsági_kérdései_a_böngészőben (end)
+
+\section{Mire érdemes figyelni?} % (fold)
+\label{sec:mire_érdemes_figyelni__}
+
+\Aref{sec:miket_lehet_merni_} és \aref{sec:mit_erdemes_merni_} pontokban felsorolásra kerültek olyan adatok, melyeket lehet, illetve érdemes mérni a felhasználó böngészőjében. Ebben a fejezetben, megvizsgálásra kerülnek az adatok olyan oldalról, hogy hogyan lehet védekezni ellenük.\hfill\\
+\\
+\paragraph{Sütik} % (fold)
+\label{par:sutik_security}
+Maguk a sütik nem érdemes védekezni, azonban van egy speciális formájuk, mely a felhasználók azonosításának leginkább kedvelt formája, ez pedig nem más, mint a külső féltől származó süti (\textit{third party cookie}). Mint már a előző fejezetben említésre került a sütik alapvetően a felhasználói azonosítást segítik, teszik lehetővé a webes alkalmazásoknál, tehát az egy doménen működő oldalaknál nincs szükség minden megnyitás alkalmával a felhasználó nevét, és jelszavát elkérni, hanem a sütiben eltárolt munkamenet azonosító (\textit{session id}) alapján képesek autentikálni. \hfill\\
+Alapértelmezetten azonban a webes alkalmazások nem csak arra a doménre képesek sütik beállítani, amelyeken látszólag nem működnek. Szerencsére a külső sütik letiltása már minden böngészőben lehetséges és ajánlott beállítás minden internethasználó számára. Viszont fontos arra felhívni a figyelmet, hogy a külső sütik tiltása nem tiltja le a localStorage használatát, tehát az továbbra is elérhető lehetőség a weboldalak számára, hogy a külső adataikat ott helyezzék el.
+% paragraph sütik (end)
+\\
+\paragraph{Lokalizációs információk} % (fold)
+\label{par:lokalizációs_információk_security}
+A fordított helymeghatározás ellen érdemben nem lehet fellépni, mert elrejteni nem lehet a felhasználó IP címét, persze vannak megoldások, hogy a weboldalak megtévesztésére.\hfill\\
+Általános megoldás a szerzői jogok védelme érdekében, hogy adott tartalmak, bizonyos országokból nem tesznek elérhetővé, ekkor az azonosítás IP cím alapján történik. Ennek megkerülésére használhatóak a proxyk\nomenclature{Proxy}{\hfill\\Proxy}, illetve VPN\nomenclature{VPN - virtuális magánhálózat}{\hfill\\} megoldások. Ebben az esetben a szerverek nem a felhasználó IP címét veszik alapul, hanem a proxy vagy éppen a VPN szolgáltató címét.\hfill\\
+\\
+A HTML5 lokalizáció alapján történő helymeghatározás - az alapértelmezett beállítások szerint - engedélyt kér a felhasználótól a pozíció megosztására, tehát ez az információ teljesen kontroll alatt tartható.
+% paragraph lokalizációs_információk (end)
+\\
+\paragraph{Böngészőképességek} % (fold)
+\label{par:böngészőképességek}
+A böngésző képességeinek módosítása nem lehetséges, mindössze a böngésző neve módosítható. A böngésző nevének módosítása viszont csak a böngésző detektálásra hagyatkozó adatgyűjtők ellen nyújthat védelmet, a képesség alapú detektálással szemben nem.
+\\
+% paragraph böngészőképességek (end)
+\paragraph{Bővítmények} % (fold)
+\label{par:bővítmények_security}
+A böngészők, így a felhasználók biztonsági szintjét nagy mértékben rontják a bővítmények, melyek hibásan implementálnak képességeket, vagy éppen olyan lehetőségeket engednek, melyek segítségével a felhasználó egyértelműen azonosítható. A böngészők gyártói megtesznek mindent, hogy a bővítmények minél kevésbé legyenek veszélyesek a felhasználóra, erre kiváló példa a Google Chrome-ban működő ún. sandbox mód, amely bizonyos korlátozások között engedi csak a bővítmények futását (nem írhatnak a lemezre, nem nyithatnak új ablakot). \cite{chromium_sandbox}\hfill\\
+Emellett azonban, a monitorozó weboldalak továbbra is értékes információkat szerezhetnek a bővítményekről, ennek meggátolására a legjobb módszer, ha minden bővítmény futását a felhasználó engedélyezi. Ennek a megoldásnak körülményessége miatt, ezt a lehetőséget a csak a Google Chrome implementálta és mindössze csak a Java bővítményekre. \cite{chrome_disabled_java}\hfill\\
+Viszont szerencsére az egyedileg engedélyezett futást a felhasználók könnyen megoldhatják egyénileg telepített böngésző kiegészítőkkel.
+
+% paragraph bővítmények (end)
+
+\subsection{Inkognitó mód} % (fold)
+
+Az inkognitó vagy csak gyakran pornó módként emlegetett képesség az Apple Safari böngészőben mutatkozott be 2005-ben (\cite{safari_pornmode}), mára az összes fontosabb böngészőben elérhető (Google Chrome - 2008, Mozilla Firefox 2009, Internet Explorer - 2009, Opera - 2010). Segítségével bármikor indítható egy új, teljesen üres böngésző, amely nem tartalmazza, és nem is tárolja az előzményeket, a személyes beállításokat.\hfill\\
+
+\subsubsection{Mit tud az inkognitó mód?} % (fold)
+
+2006-ban Jeremiah Grossman bemutatott egy sebezhetőséget, amelyben mindössze CSS segítségével képes volt megállapítani, hogy felhasználó milyen oldalakat látogat(\cite{css_history_hack}). Ez a hiba az összes böngészőt érintette, kivéve a Safari inkognitó módját. Természetesen mára ezt a hibát már javították, és már normál módban sem okoz problémát.\hfill\\
+Viszont a probléma rávilágított arra a tényre, hogy böngészőknek szükségük van egy olyan módra, amelyet bezárva a felhasználók számítógépén nem marad semmi nyoma (előzmények, sütik) a tevékenységnek. Azonban az inkognitó mód nem csak a nem felhasználó által elrejteni kívánt dolgoktól véd meg, hanem az felhasználók azonosítását végző weboldalaknak komoly bosszúságot okoz, ugyanis a böngészőben elhelyezett sütik, a localStorage-ba írt bejegyzések, a tárolt felhasználónevek, jelszavak is mind eltűnnek az ablak bezárása után.\hfill\\
+Természetesen időről időre megjelennek megoldások, melyek a frissen felfedezett hibák segítségével mégis képesek azonosítani a felhasználókat, azonban a böngészők gyakori verzióváltásának, és hibajavítások kiadásának köszönhetően gyorsan orvosolják a problémákat.
+\label{ssub:miért}
+
+% subsubsection miért (end)
+\label{sub:inkognitó_mód}
+
+% subsection inkognitó_mód (end)
+% section mire_érdemes_figyelni_ (end)

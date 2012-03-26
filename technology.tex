@@ -11,7 +11,7 @@ A modern böngészők egyre több mérési lehetőségeket kínálnak a követke
 \paragraph{Szerver oldali mérés} % (fold)
 \label{par:szerver_oldali_meres}
 
-A böngészők már a weboldalak lekérésok elküldésekor is számottevő mennyiségű adatot küldenek el a szervereknek. \Aref{fig:request_header} ábrán látható HTTP kérésből jól látható, hogy felhasználó milyen böngészőt használ (\textit{User-Agent}), amely tartalmazza az operációs rendszer típusát (\textit{Mac OS X}), a böngésző verziószámát (\textit{Chrome 17}), a böngésző kompatibilitását (\textit{Mozilla 5.0}, \textit{AppleWebkit}, \textit{Safari}). Továbbá fontos megemlíteni az fejlécben lévő sütiket (\textit{Cookie}), amelynek segítségével, a webszerverek azonosítják a felhasználókat.\\
+A böngészők már a weboldal lekérések elküldésekor is számottevő mennyiségű adatot küldenek el a szervereknek. \Aref{fig:request_header} ábrán látható HTTP kérésből jól látható, hogy felhasználó milyen böngészőt használ (\textit{User-Agent}), amely tartalmazza az operációs rendszer típusát (\textit{Mac OS X}), a böngésző verziószámát (\textit{Chrome 17}), a böngésző kompatibilitását (\textit{Mozilla 5.0}, \textit{AppleWebkit}, \textit{Safari}). Továbbá fontos megemlíteni az fejlécben lévő sütiket (\textit{Cookie}), amelynek segítségével, a webszerverek azonosítják a felhasználókat.\\
 \Aref{fig:request_header} ábrán látható sütik kiválóan bemutatják a webes anonimitás/azonosítás fontosságát, ugyanis az \textit{\_\_utma} és az \textit{\_\_utmz} sütiket a Google Analytics webanalitikai szoftver használja felhasználók azonosítására.\\
 A kérés fejlécéből még megállapíthatóak, olyan adatok, mint a felhasználó operációs rendszerének/böngészőjének nyelvi beállítása (\textit{Accept-Language}) vagy éppen a használt karakterkódolás (\textit{Accept-Encoding}).\\
 \clearpage
@@ -62,8 +62,8 @@ A kliensoldalon hasznos adatok érhetőek JavaScript és CSS segítségével, a 
 \label{subp:sütik}
 A webes alkalmazások sütikben (cookie) tárolják a felhasználókhoz kapcsolódó információkat, ilyenek lehetnek például a bejelentkezéshez, a legutóbbi látogatáshoz tartozó adatok. Ezek böngészőkhöz vannak kötve, tehát ha a felhasználó egy másik böngészőt indít el az internetezésre használt eszközén, vagy másik eszközről éri el az oldalt akkor nem lesznek elérhetőek.\hfill\\
 A már említett és \aref{fig:request_header} ábrán látható módon a sütikben az analitikai szoftverek egyéb, a felhasználói azonosítást megkönnyítendő adatot is elhelyeznek.\hfill\\
-A HTML5-ben már nem csak sütikben van lehetőség adatok tárolására (a sütik mérete négy kilobájtra van limitálva (http://support.microsoft.com/kb/306070)), hanem \textit{webStorage\nomenclature{webStorage}{\hfill\\websztorázs}}-ban is, amely már strukturáltabb, és nagyobb adathalmaz tárolását teszi lehetővé (http://www.w3.org/TR/webstorage/) illetve az \textit{IndexedDB}\nomenclature{IndexedDB - Indexed Database API}{IndexedDB}, amely webStorage méretbeli lehetőségeivel bír, viszont növelési lehetőséggel (bármeddig növelhető 
-méret(https://developer.mozilla.org/en/IndexedDB)) (http://www.w3.org/TR/IndexedDB/), és még komplexebb adatformátumok tárolására is fel van készítve. 
+A HTML5-ben már nem csak sütikben van lehetőség adatok tárolására (a sütik mérete négy kilóbájtra van limitálva (\cite{msdn_cookie}) ), hanem \textit{webStorage\nomenclature{webStorage}{\hfill\\websztorázs}}-ban is, amely már strukturáltabb, és nagyobb adathalmaz tárolását teszi lehetővé (\cite{webstorage}) illetve az \textit{IndexedDB}\nomenclature{IndexedDB - Indexed Database API}{IndexedDB}, amely webStorage méretbeli lehetőségeivel bír, viszont növelési lehetőséggel (bármeddig növelhető 
+méret (\cite{mdn_indexeddb}) ), és még komplexebb adatformátumok tárolására is fel van készítve. 
 % subparagraph sütik (end)
 
 \subparagraph{Lokalizációs adatok} % (fold)
@@ -97,7 +97,7 @@ Továbbá a nem standard megoldások közé tartozik, az Internet Explorerben me
 % section miket_tudunk_mérni_ (end)
 
 \section{Mit érdemes mérni?} % (fold)
-\label{sec:mit_érdemes_mérni_}
+\label{sec:mit_erdemes_merni_}
 
 \Aref{sec:miket_lehet_merni_} pontban bemutatásra kerültek a legfontosabb mérhető adatok, azonban fontos kiemelni, hogy nem érdemes minden adattal foglalkozni, de vajon melyek azok az adatok, amelyek valójában információt is tartalmaznak?\hfill\\
 
@@ -108,7 +108,7 @@ A HTTP fejléc módosítása nem tartalmaz elegendő információt ahhoz, hogy �
 
 \paragraph{A böngésző neve, verziója} % (fold)
 \label{par:a_böngésző_neve_verziója}
-Mint említésre került \aref{sec:miket_lehet_merni_} bekezdéseiben a böngésző neve, kompatibilitása, verziószáma mind kliens-, mind szerveroldalról elérhető, azonban ennek mérése hosszútávon nem profitábilis. Ennek oka, hogy 2010 júliusában a Google Chrome - szakítva a korábban megszokott böngészőverziók frissítési szokásaival - hatheti kiadási ütemtervre váltott (http://blog.chromium.org/2010/07/release-early-release-often.html), majd őt követte a Mozilla is, amely pont egy évvel később hozta meg hasonló döntését (https://blog.mozilla.com/futurereleases/2011/07/19/every-six-weeks/).\hfill\\
+Mint említésre került \aref{sec:miket_lehet_merni_} bekezdéseiben a böngésző neve, kompatibilitása, verziószáma mind kliens-, mind szerveroldalról elérhető, azonban ennek mérése hosszútávon nem profitábilis. Ennek oka, hogy 2010 júliusában a Google Chrome - szakítva a korábban megszokott böngészőverziók frissítési szokásaival - hatheti kiadási ütemtervre váltott (\cite{chrome_six_weeks}), majd őt követte a Mozilla is, amely pont egy évvel később hozta meg hasonló döntését (\cite{mozilla_six_weeks}).\hfill\\
 Tehát az ilyen gyors ütemű verzióváltások mellett, ez az adat sem szolgálhat nagy segítséggel.
 % paragraph a_böngésző_neve_verziója (end)
 

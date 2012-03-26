@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dolgozat.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: coverpage.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: technology.aux
+A level-1 auxiliary file: security.aux
+A level-1 auxiliary file: business.aux
+A level-1 auxiliary file: summary.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: dolgozat-blx.bib
+Database file #2: bibliography.bib
+Biblatex version: 1.5
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 23 entries,
+            5995 wiz_defined-function locations,
+            1225 strings with 11284 characters,
+and the built_in function-call counts, 52407 in all, are:
+= -- 1677
+> -- 1292
+< -- 473
++ -- 293
+- -- 471
+* -- 3320
+:= -- 2776
+add.period$ -- 0
+call.type$ -- 23
+change.case$ -- 191
+chr.to.int$ -- 34
+cite$ -- 44
+duplicate$ -- 6295
+empty$ -- 6602
+format.name$ -- 759
+if$ -- 12243
+int.to.chr$ -- 0
+int.to.str$ -- 43
+missing$ -- 0
+newline$ -- 414
+num.names$ -- 633
+pop$ -- 6993
+preamble$ -- 1
+purify$ -- 201
+quote$ -- 0
+skip$ -- 3031
+stack$ -- 0
+substring$ -- 481
+swap$ -- 2028
+text.length$ -- 482
+text.prefix$ -- 22
+top$ -- 1
+type$ -- 862
+warning$ -- 0
+while$ -- 332
+width$ -- 0
+write$ -- 390
