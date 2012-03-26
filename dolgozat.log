@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  26 MAR 2012 13:32
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  26 MAR 2012 13:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1086,7 +1086,7 @@ Package logreq Info: Writing requests to 'dolgozat.run.xml'.
 Here is how much of TeX's memory you used:
  10292 strings out of 493633
  161793 string characters out of 3143378
- 355321 words of memory out of 3000000
+ 354321 words of memory out of 3000000
  13354 multiletter control sequences out of 15000+200000
  56137 words of font info for 40 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -1100,7 +1100,7 @@ lic/lm/lmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/lm/lmri
 10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/lm/lmro10.pfb></u
 sr/local/texlive/2011/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/t
 exlive/2011/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dolgozat.pdf (27 pages, 371926 bytes).
+Output written on dolgozat.pdf (27 pages, 372030 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  87 compressed objects within 1 object stream

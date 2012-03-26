@@ -12,7 +12,7 @@
 		\nompageref{10}
   \item [{IndexedDB - Indexed Database API}]\begingroup \hfill\\Az IndexedDB a webStorage-hez hasonló adatbázis implementáció a böngészőkben, azonban sokkal komplexebb feladatok megoldására került életre hívásra, rendelkezik indexelési lehetőséggel és tranzakció támogatással.\nomeqref {2.0}
 		\nompageref{11}
-  \item [{ISP - Internet Service Provider}]\begingroup \hfill\\ISP\nomeqref {3.0}
+  \item [{ISP - Internet Service Provider}]\begingroup \hfill\\ISP-k az olyan szolgáltatások, amelyeknek az infrastruktúráján keresztül a felhasználók képesek fizikailag az internetre kapcsolódni.\nomeqref {3.0}
 		\nompageref{16}
   \item [{JavaScript}]\begingroup \hfill\\JavaScript egy főleg böngészőben használt objektumorientált szkriptnyelv. Legfontosabb feladata a böngészőkben a felhasználó interakciók kezelése, azokra történő válaszadás\nomeqref {2.0}
 		\nompageref{10}
