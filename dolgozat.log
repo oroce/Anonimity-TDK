@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  26 MAR 2012 03:55
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  26 MAR 2012 13:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -867,12 +867,7 @@ ujul.png> <./assets/eutam.png>]) (./dolgozat.toc)
 
 
 pdfTeX warning: pdflatex: pop empty color page stack 0
-]
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
-
- []
-
-[3
+] [3
 
 ])
 
@@ -888,7 +883,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 \openout2 = `introduction.aux'.
 
- (./introduction.tex [6
+ (./introduction.tex
+Underfull \hbox (badness 1102) in paragraph at lines 3--7
+\T1/lmr/m/n/10.95 A dol-go-zat be-mu-tat-ja, mind fel-hasz-ná-lói, mind szol-gá
+l-ta-tói szem-szög-b®l mi-re kell
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
+
+ []
+
+[6
 
 ]) [7
 
@@ -933,21 +939,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 [10
 
 ] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 90--94
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--94
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-) [13] [14]
+[13]) [14]
 3. fejezet.
 [15
 
@@ -973,6 +979,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--19
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--30
 
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 24--30
+\T1/lmr/m/n/10.95 Az bön-gé-sz®k biz-ton-sá-ga rend-kí-vül fon-tos-sá vált az i
+n-ter-ne-ten is el-vé-gez-he-t® fel-
  []
 
 [16
@@ -1026,12 +1038,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 12--13
-\T1/lmr/m/n/10.95 már re-giszt-rá-ci-ó-kor meg-oszt-ják az alap-ve-t® in-for-má
--ci-ó-kat ma-guk-ról (név, szü-le-té-si
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
@@ -1073,22 +1079,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--74
 ] [26] [27] (./dolgozat.aux (./coverpage.aux)
 (./introduction.aux) (./technology.aux) (./security.aux) (./business.aux)
 (./summary.aux))
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'dolgozat.run.xml'.
 \openout1 = `dolgozat.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10286 strings out of 493633
- 161700 string characters out of 3143378
- 353230 words of memory out of 3000000
- 13348 multiletter control sequences out of 15000+200000
+ 10292 strings out of 493633
+ 161793 string characters out of 3143378
+ 355321 words of memory out of 3000000
+ 13354 multiletter control sequences out of 15000+200000
  56137 words of font info for 40 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 40i,13n,56p,1068b,2391s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,13n,56p,1346b,2391s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2011/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/20
 11/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2011/texmf-d
@@ -1098,7 +1100,7 @@ lic/lm/lmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/lm/lmri
 10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/lm/lmro10.pfb></u
 sr/local/texlive/2011/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/t
 exlive/2011/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dolgozat.pdf (27 pages, 369551 bytes).
+Output written on dolgozat.pdf (27 pages, 371926 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  87 compressed objects within 1 object stream

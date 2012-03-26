@@ -18,13 +18,13 @@
 \defcounter {refsection}{0}\relax 
 \select@language {magyar} \contentsline {subparagraph}{B\IeC {\"o}ng\IeC {\'e}sz\IeC {\H o}k\IeC {\'e}pess\IeC {\'e}gek}{10}
 \defcounter {refsection}{0}\relax 
-\select@language {magyar} \contentsline {subparagraph}{B\IeC {\H o}v\IeC {\'\i }tm\IeC {\'e}nyek}{10}
+\select@language {magyar} \contentsline {subparagraph}{B\IeC {\H o}v\IeC {\'\i }tm\IeC {\'e}nyek}{11}
 \defcounter {refsection}{0}\relax 
 \select@language {magyar} \contentsline {subparagraph}{K\IeC {\'e}perny\IeC {\H o}adatok}{11}
 \defcounter {refsection}{0}\relax 
 \select@language {magyar} \contentsline {subparagraph}{S\IeC {\"u}tik}{11}
 \defcounter {refsection}{0}\relax 
-\select@language {magyar} \contentsline {subparagraph}{Lokaliz\IeC {\'a}ci\IeC {\'o}s adatok}{11}
+\select@language {magyar} \contentsline {subparagraph}{Lokaliz\IeC {\'a}ci\IeC {\'o}s adatok}{12}
 \defcounter {refsection}{0}\relax 
 \select@language {magyar} \contentsline {subparagraph}{Egy\IeC {\'e}b m\IeC {\'e}rhet\IeC {\H o} adatok}{12}
 \defcounter {refsection}{0}\relax 

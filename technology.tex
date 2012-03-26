@@ -2,8 +2,8 @@
 
 A felhasználó azonosítása hálózati kapcsolaton keresztül történő kommunikáció során figyelhető meg leginkább, ezért a technológia áttekintés a webes technológia lehetőségeire fog fókuszálni.\\
 \\
-A webes technikák fejlődése egy inkább biztonságossá teszi a böngészést, amellett az új funkciók bevezetésével egyre több lehetőséget kínál a felhasználók azonosítására.\\
-A modern böngészők egyre több mérési lehetőségeket kínálnak a következő pontban összefoglalásra kerül, hogy mik ezek, milyen adatokat tudhatunk meg ezek segítségével a felhasználóról. Ezután pedig a lehetőségeket kerülnek mérlegelésre technológia szempontból, hogy melyek azok az adatok adatok, amelyek valóban információkat is tartalmaznak.
+A webes technikák fejlődése biztonságossá teszi a böngészést, azonban az új funkciók bevezetésével egyre több lehetőséget kínál a felhasználók azonosítására.\\
+A modern böngészők egyre több mérési lehetőségeket kínálnak, a következő pontban összefoglalásra kerül, hogy mik ezek, milyen adatokat tudhatunk meg ezek segítségével a felhasználóról. Ezután pedig a lehetőségek kerülnek mérlegelésre technológia szempontból, hogy melyek azok az adatok, amelyek valóban információt is tartalmaznak.
 
 \section{Mit lehet mérni?} % (fold)
 \label{sec:miket_lehet_merni_}
@@ -11,7 +11,7 @@ A modern böngészők egyre több mérési lehetőségeket kínálnak a követke
 \paragraph{Szerver oldali mérés} % (fold)
 \label{par:szerver_oldali_meres}
 
-A böngészők már a weboldal lekérések elküldésekor is számottevő mennyiségű adatot küldenek el a szervereknek. \Aref{fig:request_header} ábrán látható HTTP kérésből jól látható, hogy felhasználó milyen böngészőt használ (\textit{User-Agent}), amely tartalmazza az operációs rendszer típusát (\textit{Mac OS X}), a böngésző verziószámát (\textit{Chrome 17}), a böngésző kompatibilitását (\textit{Mozilla 5.0}, \textit{AppleWebkit}, \textit{Safari}). Továbbá fontos megemlíteni az fejlécben lévő sütiket (\textit{Cookie}), amelynek segítségével, a webszerverek azonosítják a felhasználókat.\\
+A böngészők már a weboldalak lekérésekor elküldenek számottevő mennyiségű adatot a szervereknek. \Aref{fig:request_header} ábrán látható HTTP kérésből jól látható, hogy felhasználó milyen böngészőt használ (\textit{User-Agent}), amely tartalmazza az operációs rendszer típusát (\textit{Mac OS X}), a böngésző verziószámát (\textit{Chrome 17}), a böngésző kompatibilitását (\textit{Mozilla 5.0}, \textit{AppleWebkit}, \textit{Safari}). Továbbá fontos megemlíteni az fejlécben lévő sütiket (\textit{Cookie}), amelynek segítségével, a webszerverek azonosítják a felhasználókat.\\
 \Aref{fig:request_header} ábrán látható sütik kiválóan bemutatják a webes anonimitás/azonosítás fontosságát, ugyanis az \textit{\_\_utma} és az \textit{\_\_utmz} sütiket a Google Analytics webanalitikai szoftver használja felhasználók azonosítására.\\
 A kérés fejlécéből még megállapíthatóak, olyan adatok, mint a felhasználó operációs rendszerének/böngészőjének nyelvi beállítása (\textit{Accept-Language}) vagy éppen a használt karakterkódolás (\textit{Accept-Encoding}).\\
 \clearpage
@@ -27,13 +27,13 @@ A kérés fejlécéből még megállapíthatóak, olyan adatok, mint a felhaszn�
 \paragraph{Kliens oldali mérés} % (fold)
 \label{par:kliens_oldali_mérés}
 
-Azonban, a legtöbb adatot a böngészők nem küldik el a kéréskor, hanem JavaScript\nomenclature{JavaScript}{\hfill\\JavaScript no mi ez lurkó?} segítségével lehet kinyerni a böngészőből. A HTML5\nomenclature{HTML5}{\hfill\\HTML5 egy webes szabványgyűjtemény, amelyet a webes fejlesztők, a böngészők készítői állítanak össze, és amely alapján adaptálják az új funkciókat} ajánlások bővülésével a JavaScript nyelv segítségével, egyre közelebb lehet kerülni az operációs szintű funkciókhoz, természetesen a megfelelő biztonsági korlátozások mellett.\\
+A legtöbb adatot a böngészők nem küldik el a kéréskor, hanem JavaScript\nomenclature{JavaScript}{\hfill\\JavaScript egy főleg böngészőben használt objektumorientált szkriptnyelv. Legfontosabb feladata a böngészőkben a felhasználó interakciók kezelése, azokra történő válaszadás} segítségével lehet kinyerni a böngészőből. A HTML5\nomenclature{HTML5}{\hfill\\HTML5 egy webes szabványgyűjtemény, amelyet a webes fejlesztők, a böngészők készítői állítanak össze, amely alapján adaptálják az új funkciókat} ajánlások bővülésével a JavaScript nyelv segítségével, egyre közelebb lehet kerülni az operációs szintű funkciókhoz, természetesen a megfelelő biztonsági korlátozások mellett.\\
 
 A HTTP fejlécben látható adatok, mind elérhetőek JavaScript segítségével is (ez alól kivételt jelentenek a biztonságos címkével ellátott sütik). De milyen plusz adatok érhetőek kliensoldalról?\hfill\\
 
 \subparagraph{Böngészőképességek} % (fold)
 \label{subp:bongeszokepessegek}
-A felhasználó böngészője által implementált képességek, amelyből kinyerhető, hogy a felhasználó milyen a böngészők használ. Természetesen mindezt elárulja a HTTP fejlécben található \textit{User-Agent} is, azonban a HTTP fejléc a legtöbb böngészőben kézzel is módosítható, tehát az ilyen detektálásból (\textit{Browser Detection}\nomenclature{Browser Detection}{\hfill\\Br.Det.}) gyakran fals-pozitív vagy fals-negatív azonosítás születhet, míg a JavaScript alapú megoldásból (\textit{Feature Detection}\nomenclature{Feature Detection}{\hfill\\Feat. Detection}) mindig pontos születik.
+A felhasználó böngészője által implementált képességek, amelyből kinyerhető, hogy a felhasználó milyen a böngészőt használ. Természetesen mindezt elárulja a HTTP fejlécben található \textit{User-Agent} is, azonban a HTTP fejléc a legtöbb böngészőben kézzel is módosítható, tehát az ilyen detektálásból (\textit{Böngésző detektálás - Browser Detection}\nomenclature{Böngésző detektálás - Browser Detection}{\hfill\\A böngésző detektálás során a webes alkalmazás a böngésző neve alapján próbálja feltérképezni, hogy a használt program, milyen képességekkel és hiányosságokkal rendelkezik.}) gyakran fals-pozitív vagy fals-negatív azonosítás születhet, míg a JavaScript alapú megoldásból (\textit{Képesség detektálás - Feature Detection}\nomenclature{Képesség detektálás - Feature Detection}{\hfill\\A képesség detektálás során, a CSS és a JavaScript segítségével kerül feltérképezésre a böngészők hiányossága és képessége. Ez a megoldás a - böngésző detektálással ellentétben - nagyon kis százalékban okozhat fals-negatív vagy fals-pozitív eredményt.}) a legtöbb esetben pontos születik.
 % subparagraph böngészőképességek (end)
 
 \subparagraph{Bővítmények} % (fold)
@@ -41,28 +41,27 @@ A felhasználó böngészője által implementált képességek, amelyből kinye
 Olyan fontos - és hosszútávon állandó - adatok is kiolvashatók a böngészőkből, mint például a felhasználó által telepített bővítmények (pluginek). Ebben a kategóriában a következő elemek fordulhatnak elő:
 \begin{itemize}
 	\item{\textbf{Adobe Flash}}\hfill\\ 
-		Az Adobe Flash bővítmény pontos neve, és verziószáma, videók lejátszásához, streameléshez, animációkhoz használják.
+		Az Adobe Flash bővítmény pontos neve és verziószáma, videók lejátszásához, streameléshez, animációkhoz használják.
 		
 	\item{\textbf{Java}}\hfill\\ 
 		A böngészőbe telepített Java bővítmény verziószáma, komplex hálózati adatfolyamok kezelésére, magas biztonsági szintet megkívánó alkalmazások (például internetbankok) futtatására használják.
 	\item{\textbf{Silverlight}}\hfill\\ 
 		A Microsoft Silverlight bővítménye, videók lejátszásához, és adat streameléshez használatos.
-		
 	\item{\textbf{PDF olvasó}}\hfill\\ 
-		Böngészőbe épített PDF olvasó, ez lehet alapértelmezett böngésző része, vagy külső beépülő bővítmény is lehet (például Adobe Reader).
+		Böngészőbe épített PDF olvasó, ez lehet alapértelmezett böngésző része, vagy külső beépülő bővítmény (például Adobe Reader).
 \end{itemize}
 % subparagraph bővítmények (end)
 
 \subparagraph{Képernyőadatok} % (fold)
 \label{subp:képernyőadatok}
-A kliensoldalon hasznos adatok érhetőek JavaScript és CSS segítségével, a felhasználó által használt monitor felbontásáról, színmélységéről.
+A kliensoldalon hasznos adatok érhetőek JavaScript és CSS segítségével, a felhasználó által használt monitor felbontásáról, színmélységéről, a webalkalmazás számára elérhető terület méretéről.
 % subparagraph képernyőadatok (end)
 
 \subparagraph{Sütik} % (fold)
 \label{subp:sütik}
 A webes alkalmazások sütikben (cookie) tárolják a felhasználókhoz kapcsolódó információkat, ilyenek lehetnek például a bejelentkezéshez, a legutóbbi látogatáshoz tartozó adatok. Ezek böngészőkhöz vannak kötve, tehát ha a felhasználó egy másik böngészőt indít el az internetezésre használt eszközén, vagy másik eszközről éri el az oldalt akkor nem lesznek elérhetőek.\hfill\\
-A már említett és \aref{fig:request_header} ábrán látható módon a sütikben az analitikai szoftverek egyéb, a felhasználói azonosítást megkönnyítendő adatot is elhelyeznek.\hfill\\
-A HTML5-ben már nem csak sütikben van lehetőség adatok tárolására (a sütik mérete négy kilóbájtra van limitálva (\cite{msdn_cookie}) ), hanem \textit{webStorage\nomenclature{webStorage}{\hfill\\websztorázs}}-ban is, amely már strukturáltabb, és nagyobb adathalmaz tárolását teszi lehetővé (\cite{webstorage}) illetve az \textit{IndexedDB}\nomenclature{IndexedDB - Indexed Database API}{IndexedDB}, amely webStorage méretbeli lehetőségeivel bír, viszont növelési lehetőséggel (bármeddig növelhető 
+A már említett és \aref{fig:request_header} ábrán látható módon a sütikben az analitikai szoftverek egyéb, a felhasználói azonosítást megkönnyítendő adatokat is elhelyeznek.\hfill\\
+A HTML5-ben már nem csak sütikben van lehetőség adatok tárolására (a sütik mérete négy kilóbájtra van limitálva (\cite{msdn_cookie}) ), hanem \textit{webStorage}\nomenclature{webStorage}{\hfill\\A webStorage egy olyan állandó kulcs-érték alapú tárolóréteg, amely a modern böngészőkben találhatóak meg.}-ban is, amely már strukturáltabb, és nagyobb adathalmaz tárolását teszi lehetővé (\cite{webstorage}) illetve az \textit{IndexedDB}\nomenclature{IndexedDB - Indexed Database API}{\hfill\\Az IndexedDB a webStorage-hez hasonló adatbázis implementáció a böngészőkben, azonban sokkal komplexebb feladatok megoldására került életre hívásra, rendelkezik indexelési lehetőséggel és tranzakció támogatással.}, amely webStorage méretbeli lehetőségeivel bír, viszont növelési lehetőséggel (bármeddig növelhető 
 méret (\cite{mdn_indexeddb}) ), és még komplexebb adatformátumok tárolására is fel van készítve. 
 % subparagraph sütik (end)
 
@@ -82,14 +81,14 @@ Viszont az említett HTML5 lokalizációs interfésze (geoLocation) lehetővé t
 		Abban az esetben, ha az adott készülék sem mobiltelefon tornyokra nem képes csatlakozni, vezeték nélküli hálózat sincs a környezetében és GPS eszközzel sem rendelkezik, a fordított helymeghatározás ilyenkor is használható, hiszen internetkapcsolattal rendelkeznie kell a webes tartalmak eléréséhez.
 \end{itemize}
 
-A HTML5 lokalizációnál fontos kiemelni, hogy a böngésző alapértelmezetten nem teszi elérhetővé a felhasználó pozícióját, hanem egy megerősítést kér, amelyet elfogadva lesz csak elérhető az adat.
+A HTML5 lokalizációnál fontos kiemelni, hogy a böngésző alapértelmezetten nem teszi elérhetővé a felhasználó pozícióját, hanem egy megerősítést kér, amelyet elfogadva lesz csak elérhető az információ.
 % subparagraph lokalizációs_adatok (end)
 
 \subparagraph{Egyéb mérhető adatok} % (fold)
 \label{subp:egyéb_mérhető_adatok}
 Lehetőség van még a böngészőkben olyan egyéb adatok mérésére, melyek nincsenek benne a specifikációban illetve a beépülő bővítmények segítségével érhetőek el.\hfill\\\\
 Ilyenek lehetnek például az Adobe Flash segítségével elérhető operációs rendszerre telepített betűtípusok vagy az adott készülékben megtalálható vagy készülékhez kapcsolt multimédiás eszközök, mint például a webkamera.\hfill\\\\
-Továbbá a nem standard megoldások közé tartozik, az Internet Explorerben megtalálható ActiveX\nomenclature{ActiveX}{\hfill\\ActiveX} komponensek, melyekkel akár az operációs rendszer szintjén lehet futtatni nem webre fejlesztett szoftvereket, amelyek természetesen szinte mindent elérhetnek - az asztali programokhoz hasonlóan. Az ActiveX komponensek hátránya, hogy csak Internet Explorerben és Windows platformon érhetőek el.
+Továbbá a nem standard megoldások közé tartozik, az Internet Explorerben megtalálható ActiveX\nomenclature{ActiveX}{\hfill\\ActiveX az Internet Explorerben használt keretrendszer, melynek segítségével - többek között - a nem webes platformra írt alkalmazások is futtatható válnak} komponensek, melyekkel akár az operációs rendszer szintjén lehet futtatni nem webre fejlesztett szoftvereket, amelyek természetesen szinte mindent elérhetnek - az asztali programokhoz hasonlóan. Az ActiveX komponensek hátránya, hogy csak Internet Explorerben és Windows platformon érhetőek el.
 % subparagraph egyéb_mérhető_adatok (end)
 
 % paragraph kliens_oldali_mérés (end)
@@ -103,7 +102,7 @@ Továbbá a nem standard megoldások közé tartozik, az Internet Explorerben me
 
 \paragraph{A HTTP fejléc} % (fold)
 \label{par:a_http_fejléc}
-A HTTP fejléc módosítása nem tartalmaz elegendő információt ahhoz, hogy érdemben megérje vele foglalkozni, és az elküldött adatok legtöbbje módosítható, korlátozható illetve ki is egészíthető a telepített böngészőkben (ez történhet kézzel vagy a bővítmények, kiegészítők által).
+A HTTP fejléc (módosíthatósága végett) nem tartalmaz elegendő információt ahhoz, hogy érdemben megérje vele foglalkozni, és az elküldött adatok legtöbbje módosítható, korlátozható illetve ki is egészíthető a telepített böngészőkben (ez történhet kézzel vagy a bővítmények, kiegészítők által).
 % paragraph a_http_fejléc (end)
 
 \paragraph{A böngésző neve, verziója} % (fold)

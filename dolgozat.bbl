@@ -248,6 +248,28 @@
   \field{year}{2012}
 \endentry
 
+\entry{internet_time}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ipsos}{I.}%
+     {Szonda}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{IS1}
+  \strng{fullhash}{IS1}
+  \field{labelyear}{2008}
+  \field{sortinit}{I}
+  \field{note}{\\Letöltve: 2012. február 27.\\}
+  \field{pages}{4}
+  \field{title}{Szonda Ipsos: 2010-re megkerülhetetlen!}
+  \verb{url}
+  \verb http://www.slideshare.net/rabbitblog/szonda-ipsos-2010re-megkerlhetetle
+  \verb n-presentation
+  \endverb
+  \field{year}{2008}
+\endentry
+
 \entry{chrome_six_weeks}{misc}{}
   \name{author}{1}{}{%
     {{}%
@@ -284,6 +306,26 @@
   \field{title}{Every Six Weeks}
   \verb{url}
   \verb https://blog.mozilla.com/futurereleases/2011/07/19/every-six-weeks/
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{internet_penet}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {NRC}{N.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{N1}
+  \strng{fullhash}{N1}
+  \field{labelyear}{2011}
+  \field{sortinit}{N}
+  \field{note}{\\Letöltve: 2012. február 25.\\}
+  \field{title}{Internet penetrációs adatok}
+  \verb{url}
+  \verb http://nrc.hu/kutatas/internet_penetracio
   \endverb
   \field{year}{2011}
 \endentry
